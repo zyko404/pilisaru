@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.HomeWindowController">
+   <AnchorPane fx:id="maninPane" layoutX="380.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;">
+      <children>
+         <Text fill="#12b16e" layoutX="399.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
+            <font>
+               <Font name="Baskerville Old Face" size="40.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="200.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../assepts/Untitled.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="564.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../assepts/government-logo-2%201.png" />
+            </image>
+         </ImageView>
+         <Text layoutX="107.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="91.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanka. Under this Ministry, Central Environmental Authority (CEA) has been formulated as a regularatory body for">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="86.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Environmental management in the Country. It is revels that these two institutional streams are having equal right">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="91.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and responsibility for ensure maintain the hygienic environment in the urban areas. Out of the other environmental">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="113.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problems in urban areas of Sri Lanka, improper management of solid waste is one of the biggest and key">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="109.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems in Sri Lanka. Lack of systematic systems on waste collection, waste transport, and">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="95.0" layoutY="605.0" strokeType="OUTSIDE" strokeWidth="0.0" text="intermediate treatment systems and suitable waste disposal have been contributing to aggravate the solid waste">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="128.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problem in Sri Lanka. The present haphazard waste disposal practices in Sri Lanka have created many">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="116.0" layoutY="650.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems and numerous nuisances on general public. As a consequence of this practice entire" textAlignment="CENTER">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text layoutX="115.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities are suffering and number of health, social, economic and cultural problems have been created.">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+      </children></AnchorPane>
+   <Pane id="sale" prefHeight="720.0" prefWidth="380.0" style="-fx-background-color: #0ECA98;">
+      <Label layoutX="22.0" layoutY="7.0" prefHeight="42.0" prefWidth="92.0" style="-fx-font-family: Aclonica; -fx-font-size: 28;" text="Pilisaru" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="40.0" text="Sri Lanka" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <ImageView fitHeight="76.0" fitWidth="84.0" layoutX="254.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../assepts/20230130_225918.png" />
+      </ImageView>
+      <Button id="blue" fx:id="btnHome" layoutX="14.0" layoutY="112.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="50.0" prefWidth="335.0" style="-fx-background-color: #0DC27F; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button id="blue" fx:id="btnPile" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnPileOnAction" prefHeight="50.0" prefWidth="335.0" style="-fx-background-color: #0DC27F; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="Pile" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <Button id="blue" layoutX="14.0" layoutY="236.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="335.0" style="-fx-background-color: #0DC27F; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="Compost" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <Button id="blue" fx:id="inventory" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" onAction="#btnInventoryOnAction" prefHeight="50.0" prefWidth="335.0" style="-fx-background-color: #0DC27F; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="Inventory" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Button>
+      <ComboBox id="blue" fx:id="comboEmployee" layoutX="21.0" layoutY="366.0" onAction="#comboEmployeeOnAction" onMouseEntered="#btnEmployeeOnMouseEnter" prefHeight="63.0" prefWidth="323.0" promptText="Employee" style="-fx-background-color: #0DC27F; -fx-background-radius: 35;" stylesheets="@../sheets/stylesheet.css" visibleRowCount="11">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+   </Pane>
+</AnchorPane>

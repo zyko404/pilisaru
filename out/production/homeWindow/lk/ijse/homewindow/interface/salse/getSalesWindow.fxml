@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.GetSalesWindowController">
+   <children>
+      <Text fill="#0bab28" layoutX="171.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Get Sales Information">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="79.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="357.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="133.0" layoutY="126.0" prefWidth="150.0" promptText="January" />
+      <ComboBox layoutX="409.0" layoutY="126.0" prefWidth="150.0" promptText="2023" AnchorPane.bottomAnchor="249.0" AnchorPane.leftAnchor="409.0" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="126.0" />
+      <TableView layoutX="153.0" layoutY="177.0" prefHeight="209.0" prefWidth="331.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Date" />
+            <TableColumn prefWidth="75.0" text="Sales" />
+            <TableColumn prefWidth="75.0" text="Productivity" />
+          <TableColumn prefWidth="106.0" text="Monthly Income" />
+        </columns>
+      </TableView>
+      <Line endX="111.0" layoutX="309.0" layoutY="85.0" startX="-113.0" stroke="#13cd0c" />
+   </children>
+</AnchorPane>

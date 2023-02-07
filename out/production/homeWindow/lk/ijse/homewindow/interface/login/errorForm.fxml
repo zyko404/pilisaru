@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1366.0" style="-fx-background-color: white;"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="lk.ijse.homewindow.controller.ErrorFormController">
+
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0eca98" height="720.0" layoutX="-39.0" layoutY="-28.0"
+               rotate="6.06" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="479.0"/>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0eca98" height="146.0" layoutX="-4.0" layoutY="574.0"
+               stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="406.0"/>
+    <Circle fill="#0dc27f" layoutX="119.0" layoutY="124.0" radius="100.0" stroke="BLACK" strokeType="INSIDE"
+            strokeWidth="0.0"/>
+    <Circle fill="#0dc27f" layoutX="329.0" layoutY="601.0" radius="70.0" stroke="BLACK" strokeType="INSIDE"
+            strokeWidth="0.0"/>
+    <Polygon fill="#0dc27f" layoutX="350.0" layoutY="98.0"
+             points="-33.51917266845703, 47.416996002197266, 62.36956787109375, 27.39905548095703, -3.3751299381256104, -52.523250579833984"
+             rotate="-64.15" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"/>
+    <Polygon fill="#0dc27f" layoutX="127.0" layoutY="632.0"
+             points="-81.59380340576172, 0.8808273077011108, 64.6380615234375, 22.923126220703125, -0.804232120513916, -124.21177673339844"
+             rotate="133.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"/>
+    <Text fill="WHITE" layoutX="138.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OOPS!">
+        <font>
+            <Font name="High Tower Text" size="64.0"/>
+        </font>
+    </Text>
+    <Line endX="64.6380615234375" layoutX="255.0" layoutY="384.0" startX="-100.0" stroke="WHITE" strokeWidth="6.0"/>
+    <Text fill="#12b16e" layoutX="780.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Access Denied"
+          textAlignment="CENTER">
+        <font>
+            <Font name="Baskerville Old Face" size="38.0"/>
+        </font>
+    </Text>
+    <Line endX="64.6380615234375" layoutX="913.0" layoutY="140.0" startX="-100.0" stroke="#12b16e" strokeWidth="6.0"/>
+    <Text layoutX="796.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Contact Us">
+        <font>
+          <Font name="Arial" size="20.0"/>
+        </font>
+    </Text>
+    <Text layoutX="817.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="091-3918511">
+        <font>
+          <Font size="20.0"/>
+        </font>
+    </Text>
+    <Text layoutX="853.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or">
+        <font>
+          <Font size="20.0"/>
+        </font>
+    </Text>
+    <Text layoutX="841.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5656">
+        <font>
+          <Font size="20.0"/>
+        </font>
+    </Text>
+    <ImageView fitHeight="205.0" fitWidth="269.0" layoutX="742.0" layoutY="189.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@../../assepts/undraw_access_denied_re_awnf 1.png"/>
+    </ImageView>
+    <Hyperlink fx:id="hyperBack" layoutX="1232.0" layoutY="660.0" onAction="#hyperBackOnAction" text="Goto Sing-In"/>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.HomeFormController">
+    <children>
+        <Text fill="#12b16e" layoutX="402.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
+            <font>
+                <Font name="Baskerville Old Face" size="40.0" />
+            </font>
+        </Text>
+        <Line endX="58.0" layoutX="517.0" layoutY="104.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+      <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/government-logo-2%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/Untitled.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="106.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanka. Under this Ministry, Central Environmental Authority (CEA) has been formulated as a regularatory body for">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="86.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Environmental management in the Country. It is revels that these two institutional streams are having equal right">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="91.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and responsibility for ensure maintain the hygienic environment in the urban areas. Out of the other environmental">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="124.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problems in urban areas of Sri Lanka, improper management of solid waste is one of the biggest and key">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="124.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems in Sri Lanka. Lack of systematic systems on waste collection, waste transport, and">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="intermediate treatment systems and suitable waste disposal have been contributing to aggravate the solid waste">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="140.0" layoutY="611.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problem in Sri Lanka. The present haphazard waste disposal practices in Sri Lanka have created many">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="113.0" layoutY="632.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems and numerous nuisances on general public. As a consequence of this practice entire" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="653.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities are suffering and number of health, social, economic and cultural problems have been created.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button id="blue" fx:id="btnSingOut" layoutX="791.0" layoutY="23.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="45.0" prefWidth="169.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Button>
+    </children>
+
+
+</AnchorPane>
