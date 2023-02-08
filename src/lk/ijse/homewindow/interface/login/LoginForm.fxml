@@ -9,80 +9,44 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
-<?import javafx.scene.shape.Polygon?>
-<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane fx:id="mainframethisWindow" prefHeight="720.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.LoginController">
-   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0eca98" height="720.0" layoutX="-39.0" layoutY="-28.0" rotate="6.06" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="479.0" />
-   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0eca98" height="150.0" layoutX="-4.0" layoutY="574.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="406.0" />
-   <Circle fill="#0dc27f" layoutX="119.0" layoutY="124.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-   <Circle fill="#0dc27f" layoutX="329.0" layoutY="601.0" radius="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-   <Polygon fill="#0dc27f" layoutX="350.0" layoutY="98.0" points="-33.51917266845703, 47.416996002197266, 62.36956787109375, 27.39905548095703, -3.3751299381256104, -52.523250579833984" rotate="-64.15" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-   <Polygon fill="#0dc27f" layoutX="127.0" layoutY="632.0" points="-81.59380340576172, 0.8808273077011108, 64.6380615234375, 22.923126220703125, -0.804232120513916, -124.21177673339844" rotate="133.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-   <Text fill="WHITE" layoutX="91.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello , Sir!">
-      <font>
-         <Font name="High Tower Text" size="54.0" />
-      </font>
-   </Text>
-   <Line endX="64.6380615234375" layoutX="240.0" layoutY="284.0" startX="-100.0" stroke="WHITE" strokeWidth="6.0" />
-   <Text fill="WHITE" layoutX="123.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Fill up personal">
-      <font>
-         <Font name="Candara Light" size="32.0" />
-      </font>
-   </Text>
-   <Text fill="#f8f8f8" layoutX="79.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="information and Start">
-      <font>
-         <Font name="Candara Light" size="32.0" />
-      </font>
-   </Text>
-   <Text fill="#fcfcfc" layoutX="143.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="the journey!">
-      <font>
-         <Font name="Candara Light" size="32.0" />
-      </font>
-   </Text>
-   <Text fill="#12b16e" layoutX="700.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in to Account " textAlignment="CENTER">
-      <font>
-         <Font name="Baskerville Old Face" size="38.0" />
-      </font>
-   </Text>
-   <Line endX="64.6380615234375" layoutX="861.0" layoutY="341.0" startX="-100.0" stroke="#12b16e" strokeWidth="6.0" />
-   <TextField fx:id="textName" layoutX="678.0" layoutY="400.0" prefHeight="39.0" prefWidth="320.0" promptText="User name" style="-fx-background-color: white;">
+   <ImageView fitHeight="720.0" fitWidth="1366.0" layoutX="119.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <image>
+         <Image url="@../../assepts/Desktop%20-%2023.png" />
+      </image>
+   </ImageView>
+   <TextField fx:id="textName" layoutX="881.0" layoutY="403.0" prefHeight="39.0" prefWidth="320.0" promptText="User name" style="-fx-background-color: white;" AnchorPane.leftAnchor="881.0">
       <font>
          <Font size="20.0" />
       </font>
    </TextField>
-   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="643.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="840.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="840.0">
       <Image url="@../../assepts/user.png" />
    </ImageView>
-   <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="867.0" layoutY="444.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" />
-   <PasswordField fx:id="passText" layoutX="678.0" layoutY="480.0" onKeyTyped="#passOnActionKeyTyped" prefHeight="39.0" prefWidth="320.0" promptText="password" style="-fx-background-color: white;">
+   <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="1029.0" layoutY="448.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" AnchorPane.bottomAnchor="269.5000305175781" AnchorPane.leftAnchor="840.138671875" AnchorPane.rightAnchor="163.861328125" AnchorPane.topAnchor="445.4999694824219" />
+   <PasswordField fx:id="passText" layoutX="881.0" layoutY="473.0" onKeyTyped="#passOnActionKeyTyped" prefHeight="39.0" prefWidth="320.0" promptText="password" style="-fx-background-color: white;" AnchorPane.leftAnchor="881.0">
       <font>
          <Font size="20.0" />
       </font>
    </PasswordField>
-   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="643.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="840.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="840.0">
       <Image url="@../../assepts/lock.png" />
    </ImageView>
-   <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="867.0" layoutY="524.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" />
-   <CheckBox layoutX="696.0" layoutY="571.0" mnemonicParsing="false" text="Remember Me" textAlignment="CENTER">
+   <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="1029.0" layoutY="519.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" AnchorPane.leftAnchor="840.138671875" />
+   <CheckBox layoutX="845.0" layoutY="554.0" mnemonicParsing="false" text="Remember Me" textAlignment="CENTER" AnchorPane.leftAnchor="840.138671875">
       <font>
          <Font size="14.0" />
       </font>
    </CheckBox>
-   <Button id="blue" fx:id="signbit" layoutX="800.0" layoutY="600.0" mnemonicParsing="false" onAction="#btnSingInOnAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-radius: 30 30 30 30; -fx-background-color: #12b16e;" stylesheets="@../../sheets/stylesheet.css" text="Sign In">
+   <Button id="blue" fx:id="signbit" layoutX="954.0" layoutY="588.0" mnemonicParsing="false" onAction="#btnSingInOnAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-radius: 30 30 30 30; -fx-background-color: #12b16e;" stylesheets="@../../sheets/stylesheet.css" text="Sign In">
       <font>
          <Font name="Candara Light" size="18.0" />
       </font>
    </Button>
-   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="44.0" layoutX="566.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="77.0" />
-   <ImageView fitHeight="249.0" fitWidth="305.0" layoutX="710.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
-      <Image url="@../../assepts/Untitled2.png" />
-   </ImageView>
-   <Label fx:id="lblWarning" layoutX="813.0" layoutY="546.0" prefHeight="17.0" prefWidth="92.0" text="Invalid password" textFill="#eb4e4e" visible="false" />
-   <Label fx:id="lblIncorrectPassword" layoutX="750.0" layoutY="531.0" prefHeight="17.0" prefWidth="183.0" text="Incorrect Password or User Name" textFill="#fc3333" visible="false" />
-   <Hyperlink fx:id="hyperFogetPass" layoutX="820.0" layoutY="660.0" onAction="#forgetsOnAction" text="forgot password?" />
+   <Label fx:id="lblWarning" layoutX="841.0" layoutY="526.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="92.0" text="Invalid password" textFill="#eb4e4e" visible="false" />
+   <Label fx:id="lblIncorrectPassword" layoutX="930.0" layoutY="529.0" prefHeight="17.0" prefWidth="183.0" text="Incorrect Password or User Name" textFill="#fc3333" visible="false" />
+   <Hyperlink fx:id="hyperFogetPass" layoutX="973.0" layoutY="650.0" onAction="#forgetsOnAction" text="forgot password?" />
 </AnchorPane>

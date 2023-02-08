@@ -15,11 +15,6 @@
    <children>
       <AnchorPane fx:id="mainAncorPane" layoutX="609.0" layoutY="213.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/Untitled.jpg" />
-               </image>
-            </ImageView>
             <AnchorPane fx:id="helthAncorPane" layoutX="18.0" layoutY="274.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="274.0">
                <children>
                   <ImageView fitHeight="114.0" fitWidth="279.0" onDragDetected="#btnUpdateOnAction" pickOnBounds="true" preserveRatio="true">
@@ -121,6 +116,11 @@
                   <Font name="Baskerville Old Face" size="40.0" />
                </font>
             </Text>
+            <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assepts/Untitled.jpg" />
+               </image>
+            </ImageView>
             <Line endX="58.0" layoutX="474.0" layoutY="65.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
             <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
                <image>
