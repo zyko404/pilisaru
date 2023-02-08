@@ -13,177 +13,6 @@
 
 <AnchorPane prefHeight="720.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MenuWindowController">
    <children>
-      <AnchorPane fx:id="mainAncorPane" layoutX="609.0" layoutY="213.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <AnchorPane fx:id="helthAncorPane" layoutX="18.0" layoutY="274.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="274.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" onDragDetected="#btnUpdateOnAction" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" fx:id="btnUpdate" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnupdateOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Health" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" onAction="#btnGetinfiOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Health Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="salaryAncorPane" layoutX="38.0" layoutY="432.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="354.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="vehicleAncorPane" layoutX="393.0" layoutY="368.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="410.0">
-               <children>
-                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Vehicle" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="salseAncorPane" layoutX="357.0" layoutY="231.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="466.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Info" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Details" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Separator layoutY="53.0" prefHeight="0.0" prefWidth="273.0" />
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="employeeAncorPane" layoutX="403.0" layoutY="378.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="522.0">
-               <children>
-                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Employee Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <Text fill="#12b16e" layoutX="369.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
-               <font>
-                  <Font name="Baskerville Old Face" size="40.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/Untitled.jpg" />
-               </image>
-            </ImageView>
-            <Line endX="58.0" layoutX="474.0" layoutY="65.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
-            <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/government-logo-2%201.png" />
-               </image>
-            </ImageView>
-            <Text layoutX="133.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="121.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanka. Under this Ministry, Central Environmental Authority (CEA) has been formulated as a regularatory body for">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="107.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Environmental management in the Country. It is revels that these two institutional streams are having equal right">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="113.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and responsibility for ensure maintain the hygienic environment in the urban areas. Out of the other environmental">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="134.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problems in urban areas of Sri Lanka, improper management of solid waste is one of the biggest and key">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="134.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems in Sri Lanka. Lack of systematic systems on waste collection, waste transport, and">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="109.0" layoutY="600.0" strokeType="OUTSIDE" strokeWidth="0.0" text="intermediate treatment systems and suitable waste disposal have been contributing to aggravate the solid waste">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="150.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problem in Sri Lanka. The present haphazard waste disposal practices in Sri Lanka have created many">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="123.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems and numerous nuisances on general public. As a consequence of this practice entire" textAlignment="CENTER">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="125.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities are suffering and number of health, social, economic and cultural problems have been created.">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Button id="blue" fx:id="btnSingOut" layoutX="786.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="45.0" prefWidth="169.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </Button>
-         </children>
-      </AnchorPane>
       <Pane layoutX="31.0" layoutY="29.0" prefHeight="720.0" prefWidth="380.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fitHeight="720.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true">
@@ -355,5 +184,176 @@
             </ImageView>
          </children>
       </Pane>
+      <AnchorPane fx:id="mainAncorPane" layoutX="609.0" layoutY="213.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#12b16e" layoutX="369.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
+               <font>
+                  <Font name="Baskerville Old Face" size="40.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assepts/Untitled.jpg" />
+               </image>
+            </ImageView>
+            <Line endX="58.0" layoutX="474.0" layoutY="65.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+            <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assepts/government-logo-2%201.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="133.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="121.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanka. Under this Ministry, Central Environmental Authority (CEA) has been formulated as a regularatory body for">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="107.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Environmental management in the Country. It is revels that these two institutional streams are having equal right">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and responsibility for ensure maintain the hygienic environment in the urban areas. Out of the other environmental">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="134.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problems in urban areas of Sri Lanka, improper management of solid waste is one of the biggest and key">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="134.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems in Sri Lanka. Lack of systematic systems on waste collection, waste transport, and">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="109.0" layoutY="600.0" strokeType="OUTSIDE" strokeWidth="0.0" text="intermediate treatment systems and suitable waste disposal have been contributing to aggravate the solid waste">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="150.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problem in Sri Lanka. The present haphazard waste disposal practices in Sri Lanka have created many">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="123.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems and numerous nuisances on general public. As a consequence of this practice entire" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="125.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities are suffering and number of health, social, economic and cultural problems have been created.">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Button id="blue" fx:id="btnSingOut" layoutX="786.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="45.0" prefWidth="169.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </Button>
+            <AnchorPane fx:id="helthAncorPane" layoutX="18.0" layoutY="274.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="274.0">
+               <children>
+                  <ImageView fitHeight="114.0" fitWidth="279.0" onDragDetected="#btnUpdateOnAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/health%20box.png" />
+                     </image>
+                  </ImageView>
+                  <Button id="updtHlth" fx:id="btnUpdate" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnupdateOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Health" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" onAction="#btnGetinfiOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Health Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="salaryAncorPane" layoutX="38.0" layoutY="432.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="354.0">
+               <children>
+                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/health%20box.png" />
+                     </image>
+                  </ImageView>
+                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="vehicleAncorPane" layoutX="393.0" layoutY="368.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="410.0">
+               <children>
+                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Vehicle" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="salseAncorPane" layoutX="357.0" layoutY="231.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="466.0">
+               <children>
+                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/health%20box.png" />
+                     </image>
+                  </ImageView>
+                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Info" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Details" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Separator layoutY="53.0" prefHeight="0.0" prefWidth="273.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="employeeAncorPane" layoutX="403.0" layoutY="378.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="522.0">
+               <children>
+                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Employee Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
