@@ -24,7 +24,7 @@ public class HomeWindowController{
 
     }
     public void btnPileOnAction() throws IOException  {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employeeInterface/addEmployee.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/addEmployee.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {

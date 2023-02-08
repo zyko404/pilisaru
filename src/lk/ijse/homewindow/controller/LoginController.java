@@ -35,7 +35,7 @@ public class LoginController {
         int password=404;
         if(password == number && name.equals("zyko")){
             try {
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/mainWindow/menuWindow.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/menuwindow/menuWindow.fxml"));
                 registerPane = fxmlLoader.load();
                 mainframethisWindow.getChildren().clear();
                 mainframethisWindow.getChildren().setAll(registerPane);

@@ -37,12 +37,12 @@
       <Separator layoutX="502.0" layoutY="139.0" prefHeight="14.0" prefWidth="200.0" style="-fx-background-color: #0BA27A;" />
       <ImageView fitHeight="357.0" fitWidth="623.0" layoutX="384.0" layoutY="228.0">
          <image>
-            <Image url="@../../../../Downloads/undraw_Throw_away_re_x60k.png" />
+            <Image url="../../assepts/undraw_Throw_away_re_x60k.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="263.0" fitWidth="471.0" layoutX="429.0" layoutY="219.0">
          <image>
-            <Image url="@../acceps/undraw_Throw_away_re_x60k.png" />
+            <Image url="@../../assepts/undraw_Throw_away_re_x60k.png" />
          </image>
       </ImageView>
    </children>

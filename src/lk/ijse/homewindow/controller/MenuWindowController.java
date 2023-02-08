@@ -73,7 +73,7 @@ public class MenuWindowController {
     }
 
     public void btnupdateOnAction(ActionEvent actionEvent) throws IOException {//helth
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employeeInterface/addEmployee.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/addEmployee.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {

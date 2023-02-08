@@ -43,12 +43,12 @@
       <Separator layoutX="492.0" layoutY="188.0" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: #0BA27A;" />
       <ImageView fitHeight="351.0" fitWidth="552.0" layoutX="408.0" layoutY="259.0">
          <image>
-            <Image url="@../../acceps/undraw_Collaborators_re_hont.png" />
+            <Image url="../../assepts/undraw_Collaborators_re_hont.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="339.0" fitWidth="582.0" layoutX="435.0" layoutY="257.0">
          <image>
-            <Image url="@../acceps/undraw_Collaborators_re_hont.png" />
+            <Image url="@../../assepts/undraw_Collaborators_re_hont.png" />
          </image>
       </ImageView>
    </children>
