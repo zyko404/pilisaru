@@ -1,63 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.AddemployeeinterfaceController">
-   <Label layoutX="341.0" layoutY="20.0" text="Employee Information" textFill="#12b16e">
-      <font>
-         <Font name="Arial Rounded MT Bold" size="30.0" />
-      </font>
-   </Label>
-   <ImageView fitHeight="202.0" fitWidth="291.0" layoutX="329.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
-      <Image url="@../../assepts/undraw_Browsing_online_re_umsa.png" />
+   <ImageView fitHeight="720.0" fitWidth="986.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <image>
+         <Image url="@../../assepts/EmployeeInfo.png" />
+      </image>
    </ImageView>
-   <Line endX="132.0" layoutX="454.0" layoutY="68.0" startX="-73.0" stroke="#12b16e" strokeWidth="3.0" />
-   <Label layoutX="130.0" layoutY="314.0" text="Employee NIC">
-      <font>
-         <Font name="Arial Bold" size="20.0" />
-      </font>
-   </Label>
-   <ComboBox layoutX="379.0" layoutY="303.0" prefHeight="44.0" prefWidth="450.0" style="-fx-background-color: white; -fx-background-radius: 35px; -fx-border-radius: 35px; -fx-border-color: black;" />
-   <Label layoutX="130.0" layoutY="380.0" text="Employee Name">
-      <font>
-         <Font name="Arial Bold" size="20.0" />
-      </font>
-   </Label>
-   <TextField layoutX="379.0" layoutY="369.0" prefHeight="44.0" prefWidth="450.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
-   <Label layoutX="130.0" layoutY="458.0" text="Employee Address">
-      <font>
-         <Font name="Arial Bold" size="20.0" />
-      </font>
-   </Label>
-   <TextField layoutX="379.0" layoutY="434.0" prefHeight="44.0" prefWidth="450.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
-   <Label layoutX="130.0" layoutY="529.0" text="Current Helth Condition">
-      <font>
-         <Font name="Arial Bold" size="20.0" />
-      </font>
-   </Label>
-   <Label layoutX="130.0" layoutY="579.0" text="Blood suger">
-      <font>
-         <Font size="19.0" />
-      </font>
-   </Label>
-   <Label layoutX="350.0" layoutY="579.0" text="Collestrol level">
-      <font>
-         <Font size="19.0" />
-      </font>
-   </Label>
-   <Label layoutX="600.0" layoutY="579.0" text="Blood preshure level">
-      <font>
-         <Font size="19.0" />
-      </font>
-   </Label>
-   <TextField layoutX="133.0" layoutY="600.0" prefHeight="44.0" prefWidth="101.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
-   <TextField layoutX="349.0" layoutY="600.0" prefHeight="44.0" prefWidth="128.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
-   <TextField layoutX="599.0" layoutY="600.0" prefHeight="44.0" prefWidth="170.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
+   <ComboBox layoutX="467.0" layoutY="362.0" prefHeight="44.0" prefWidth="328.0" style="-fx-background-color: white; -fx-background-radius: 35px; -fx-border-radius: 35px; -fx-border-color: black;" />
+   <TextField layoutX="411.0" layoutY="442.0" prefHeight="44.0" prefWidth="450.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
+   <TextField layoutX="411.0" layoutY="533.0" prefHeight="44.0" prefWidth="450.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
 </AnchorPane>
