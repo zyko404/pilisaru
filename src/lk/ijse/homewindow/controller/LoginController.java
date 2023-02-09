@@ -22,6 +22,7 @@ public class LoginController {
     private int chance=0;
     Pane registerPane;
     String passValue;
+    int number;
 
     public void btnSingInOnAction() throws IOException {
 
@@ -29,7 +30,12 @@ public class LoginController {
 
         String check=passText.getText();
         String name=textName.getText();
-        int number = Integer.parseInt(check);
+        try{
+             number = Integer.parseInt(check);
+        }catch (Exception e){
+            System.out.println("error debuged");
+        }
+
         passText.setText("");
         int password=404;
 
@@ -56,7 +62,6 @@ public class LoginController {
             mainframethisWindow.getChildren().clear();
             mainframethisWindow.getChildren().setAll(registerPane);
         }
-
     }
     public void passOnActionKeyTyped() {
         lblIncorrectPassword.setVisible(false);
