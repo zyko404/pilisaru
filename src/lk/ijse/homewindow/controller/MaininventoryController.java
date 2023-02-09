@@ -130,7 +130,7 @@ public class MaininventoryController {
     }
 
     public void btnInventoryCemicalAddOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../../../../out/production/homeWindow/lk/ijse/homewindow/interface/cemical/addchemical.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(""));
         Pane registerPane = fxmlLoader.load();
 
         try {
@@ -143,7 +143,7 @@ public class MaininventoryController {
     }
 
     public void btnInventoryCemicalDelete(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../../../../out/production/homeWindow/lk/ijse/homewindow/interface/cemical/chemical.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(""));
         Pane registerPane = fxmlLoader.load();
 
         try {
