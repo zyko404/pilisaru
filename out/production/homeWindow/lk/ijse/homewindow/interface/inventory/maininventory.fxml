@@ -94,17 +94,17 @@
                </font>
             </Label>
             <Line endX="100.0" layoutX="100.0" layoutY="38.0" startX="-93.0" stroke="#12b16e" />
-            <Button id="lion" layoutX="38.0" layoutY="49.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Add">
+            <Button id="lion" fx:id="btnEmployeeEquipment" layoutX="38.0" layoutY="49.0" mnemonicParsing="false" onAction="#btnEmployeeEquipmentOnAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Add">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button id="lion" layoutX="39.0" layoutY="106.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Delete" textFill="GREY">
+            <Button id="lion" fx:id="btnEmployeeEquipmentDelete" layoutX="39.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnEmployeeEquipmentDeleteOnAction" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Delete" textFill="GREY">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button id="lion" layoutX="38.0" layoutY="170.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
+            <Button id="lion" fx:id="btnEmployeeEquipmentUpdate" layoutX="38.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnEmployeeEquipmentUpdateOnAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
                <font>
                   <Font size="20.0" />
                </font>
