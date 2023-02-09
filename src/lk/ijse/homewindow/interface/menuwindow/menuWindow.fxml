@@ -127,8 +127,8 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="452.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Get Information" />
-                <MenuItem mnemonicParsing="false" text="Add Detail" />
+                <MenuItem fx:id="btnselesGetInfo" mnemonicParsing="false" onAction="#btnselesGetInfoOnAction" text="Get Information" />
+                <MenuItem fx:id="btnselesAddDetail" mnemonicParsing="false" onAction="#btnseleseAddDetailOnAction" text="Add Detail" />
               </items>
                <font>
                   <Font size="24.0" />
