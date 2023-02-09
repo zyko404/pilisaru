@@ -13,7 +13,7 @@
             <Image url="@../../assepts/HomePage.png" />
          </image>
       </ImageView>
-      <Button id="blue" fx:id="btnSingOut" layoutX="808.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="38.0" prefWidth="143.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
+      <Button id="blue" fx:id="btnSingOut" layoutX="807.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="38.0" prefWidth="143.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
          <font>
             <Font name="Baskerville Old Face" size="18.0" />
          </font>
