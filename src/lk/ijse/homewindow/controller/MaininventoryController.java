@@ -15,22 +15,16 @@ public class MaininventoryController {
     public Button btnSitevehicalAdd;
     public Button btnSiteVehicalDelete;
     public Button btnSiteVehicalUpdate;
+    public Button btnEmployeeEquipment;
+    public Button btnEmployeeEquipmentDelete;
+    public Button btnEmployeeEquipmentUpdate;
 
     public void setBtnInventoryMachineUpdateOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machines/machinUpdate.fxml"));
-        Pane registerPane = fxmlLoader.load();
-
-        try {
-            inventoryPane.getChildren().clear();
-            inventoryPane.getChildren().setAll(registerPane);
-            System.gc();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        System.out.println("dose not correct");
     }
 
     public void btnInventoryMachineDeleteOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machines/machineDelete.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineDelete.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
@@ -43,7 +37,7 @@ public class MaininventoryController {
     }
 
     public void btnInventoryMachinUpdateOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machines/machinUpdate.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineUdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
@@ -83,6 +77,45 @@ public class MaininventoryController {
 
     public void btnSiteVehicalUpdateOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/siteVehicle/siteVehicleDetailUpdate.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeEquipmentOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/equipmentAdd.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeEquipmentDeleteOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/equipentDelete.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeEquipmentUpdateOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/employeeEqupmentUpdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
