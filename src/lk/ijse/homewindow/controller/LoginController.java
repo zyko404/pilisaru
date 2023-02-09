@@ -32,6 +32,7 @@ public class LoginController {
         int number = Integer.parseInt(check);
         passText.setText("");
         int password=404;
+
         if(password == number && name.equals("zyko")){
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/menuwindow/menuWindow.fxml"));
