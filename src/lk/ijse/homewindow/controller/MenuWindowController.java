@@ -52,7 +52,17 @@ public class MenuWindowController {
     public void btnPileOnAction(ActionEvent actionEvent) {
     }
 
-    public void btnCompostOnAction(ActionEvent actionEvent) {
+    public void btnCompostOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/compost/compost.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void btnInventoruOnAction(ActionEvent actionEvent) {
@@ -76,12 +86,30 @@ public class MenuWindowController {
 
     }
 
-    public void btnSalaryUpdateOnAction(ActionEvent actionEvent) {
+    public void btnSalaryUpdateOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/salary/salaryUpdateForm.fxml"));
+        Pane registerPane = fxmlLoader.load();
 
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void btnSalaryGetInfoOnAction(ActionEvent actionEvent) {
+    public void btnSalaryGetInfoOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/salary/salaryForm.fxml"));
+        Pane registerPane = fxmlLoader.load();
 
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void btnVehicalAddOnAction(ActionEvent actionEvent) throws IOException {
