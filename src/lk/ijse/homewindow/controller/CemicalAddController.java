@@ -1,4 +1,4 @@
 package lk.ijse.homewindow.controller;
 
-public class chemiclaAdd {
+public class CemicalAddController {
 }
