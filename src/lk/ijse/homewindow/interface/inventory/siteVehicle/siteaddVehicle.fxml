@@ -32,7 +32,7 @@
       <TextField layoutX="493.0" layoutY="345.0" prefHeight="43.0" prefWidth="349.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
       <Line endX="45.0" fill="#12b16e" layoutX="508.0" layoutY="90.0" startX="-59.0" stroke="#12b16e" strokeWidth="6.0" />
       <ChoiceBox layoutX="486.0" layoutY="205.0" prefHeight="39.0" prefWidth="362.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
-      <Button id="blue" layoutX="776.0" layoutY="646.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="144.0" style="-fx-background-radius: 35; -fx-background-color: #12b16e;" stylesheets="@../../sheets/stylesheet.css" text="Button" />
+      <Button id="blue" layoutX="776.0" layoutY="646.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="144.0" style="-fx-background-radius: 35; -fx-background-color: #12b16e;" stylesheets="@../../../sheets/stylesheet.css" text="Button" />
    </children>
    <cursor>
       <Cursor fx:constant="S_RESIZE" />

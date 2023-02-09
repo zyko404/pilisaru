@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 public class MenuWindowController {
-    public AnchorPane mainAncorPane;
+    public AnchorPane mainAncorPane;// main ancorpane
     public Button btnHome;
     public Button btnPile;
     public Button btnCompost;
