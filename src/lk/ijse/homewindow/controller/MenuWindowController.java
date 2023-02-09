@@ -51,7 +51,17 @@ public class MenuWindowController {
         }
     }
 
-    public void btnPileOnAction(ActionEvent actionEvent) {// button pile
+    public void btnPileOnAction(ActionEvent actionEvent) throws IOException {// button pile
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/pile/pileinterface.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void btnCompostOnAction(ActionEvent actionEvent) throws IOException {
