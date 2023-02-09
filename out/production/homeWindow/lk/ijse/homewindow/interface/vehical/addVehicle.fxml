@@ -16,10 +16,16 @@
             <Image url="@../../assepts/VehicleAdd.png" />
          </image>
       </ImageView>
-      <TextField layoutX="399.0" layoutY="500.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
-      <TextField layoutX="399.0" layoutY="409.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+      <TextField layoutX="399.0" layoutY="500.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField layoutX="399.0" layoutY="409.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
       <ChoiceBox layoutX="464.0" layoutY="352.0" prefHeight="57.0" prefWidth="313.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
-      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="695.0" layoutY="612.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="204.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="ADD" textFill="WHITE">
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="767.0" layoutY="629.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="140.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../../sheets/stylesheet.css" text="ADD" textFill="WHITE">
          <font>
             <Font name="Avenir Book" size="24.0" />
          </font>

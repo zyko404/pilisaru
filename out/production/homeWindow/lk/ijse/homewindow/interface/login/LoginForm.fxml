@@ -48,5 +48,5 @@
    </Button>
    <Label fx:id="lblWarning" layoutX="841.0" layoutY="526.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="92.0" text="Invalid password" textFill="#eb4e4e" visible="false" />
    <Label fx:id="lblIncorrectPassword" layoutX="930.0" layoutY="529.0" prefHeight="17.0" prefWidth="183.0" text="Incorrect Password or User Name" textFill="#fc3333" visible="false" />
-   <Hyperlink fx:id="hyperFogetPass" layoutX="953.0" layoutY="657.0" onAction="#forgetsOnAction" text="forgot password?" />
+   <Hyperlink fx:id="hyperFogetPass" layoutX="956.0" layoutY="657.0" onAction="#forgetsOnAction" text="forgot password?" />
 </AnchorPane>
