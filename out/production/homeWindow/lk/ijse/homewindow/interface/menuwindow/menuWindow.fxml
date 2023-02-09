@@ -8,9 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="720.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MenuWindowController">
    <children>
@@ -26,57 +24,57 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Label layoutX="80.0" layoutY="158.0" text="HOME" textFill="WHITE">
+            <Label layoutX="76.0" layoutY="158.0" text="HOME" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
-            <Button fx:id="btnPile" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#btnPileOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnPile" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="205.0" mnemonicParsing="false" onAction="#btnPileOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="577.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="567.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="638.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="622.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="33.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="28.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../assepts/i3square.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="33.0" layoutY="577.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="31.0" layoutY="573.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../assepts/blur.png" />
                </image>
             </ImageView>
-            <Label layoutX="80.0" layoutY="219.0" text="PILE" textFill="WHITE">
+            <Label layoutX="78.0" layoutY="214.0" text="PILE" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="80.0" layoutY="577.0" text="COMPOST" textFill="WHITE">
+            <Label layoutX="76.0" layoutY="575.0" text="COMPOST" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="80.0" layoutY="638.0" text="INVENTORY" textFill="WHITE">
+            <Label layoutX="78.0" layoutY="630.0" text="INVENTORY" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="-493.0" layoutY="-5366.0" pickOnBounds="true" preserveRatio="true" smooth="false" x="520.0" y="5525.0">
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="-497.0" layoutY="-5370.0" pickOnBounds="true" preserveRatio="true" smooth="false" x="520.0" y="5525.0">
                <image>
                   <Image url="@../../assepts/home2.png" />
                </image>
             </ImageView>
-            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="274.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
+            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="261.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnHelthUpdate" mnemonicParsing="false" onAction="#menuHelthUpdateOnAction" text="Update Health" />
                 <MenuItem fx:id="btnGetinfo" mnemonicParsing="false" onAction="#menuHelthGetInfoOnAction" text="Get Health Information" />
@@ -92,7 +90,7 @@
                   <Font size="24.0" />
                </font>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="335.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="322.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnSalaryUpdate" mnemonicParsing="false" onAction="#btnSalaryUpdateOnAction" text="Update Salary" />
                 <MenuItem fx:id="btnSalaryGetInfo" mnemonicParsing="false" onAction="#btnSalaryGetInfoOnAction" text="Salary Information" />
@@ -108,7 +106,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="394.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="383.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Add Vehical" />
                 <MenuItem fx:id="btnVehicalUpdate" mnemonicParsing="false" onAction="#btnVehicalUpdateOnAction" text="UpdateVehical" />
@@ -125,7 +123,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="452.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="445.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnselesGetInfo" mnemonicParsing="false" onAction="#btnselesGetInfoOnAction" text="Get Information" />
                 <MenuItem fx:id="btnselesAddDetail" mnemonicParsing="false" onAction="#btnseleseAddDetailOnAction" text="Add Detail" />
@@ -141,7 +139,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="514.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="506.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnEmployeeUpdate" mnemonicParsing="false" onAction="#btnEmployeeUpdateOnAction" text="Update Employe" />
                 <MenuItem fx:id="btnEmployeeAdd" mnemonicParsing="false" onAction="#btnEmployeeAddOnAction" text="Add Employee" />
@@ -158,76 +156,20 @@
                   </ImageView>
                </graphic>
             </MenuButton>
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="31.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assepts/InventoryIcon.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
       <AnchorPane fx:id="mainAncorPane" layoutX="609.0" layoutY="213.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#12b16e" layoutX="369.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
-               <font>
-                  <Font name="Baskerville Old Face" size="40.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
-                  <Image url="@../../assepts/Untitled3m.png" />
+                  <Image url="@../../assepts/HomePage.png" />
                </image>
             </ImageView>
-            <Line endX="58.0" layoutX="483.0" layoutY="72.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
-            <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/government-logo-2%201.png" />
-               </image>
-            </ImageView>
-            <Text layoutX="133.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="121.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanka. Under this Ministry, Central Environmental Authority (CEA) has been formulated as a regularatory body for">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="107.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Environmental management in the Country. It is revels that these two institutional streams are having equal right">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="113.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and responsibility for ensure maintain the hygienic environment in the urban areas. Out of the other environmental">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="134.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problems in urban areas of Sri Lanka, improper management of solid waste is one of the biggest and key">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="134.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems in Sri Lanka. Lack of systematic systems on waste collection, waste transport, and">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="109.0" layoutY="600.0" strokeType="OUTSIDE" strokeWidth="0.0" text="intermediate treatment systems and suitable waste disposal have been contributing to aggravate the solid waste">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="150.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="problem in Sri Lanka. The present haphazard waste disposal practices in Sri Lanka have created many">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="123.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="environmental problems and numerous nuisances on general public. As a consequence of this practice entire" textAlignment="CENTER">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
-            <Text layoutX="125.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities are suffering and number of health, social, economic and cultural problems have been created.">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Text>
             <Button id="blue" fx:id="btnSingOut" layoutX="786.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="45.0" prefWidth="169.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
