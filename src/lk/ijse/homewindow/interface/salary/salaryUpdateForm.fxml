@@ -34,7 +34,7 @@
          <font>
             <Font size="20.0" />
          </font></TextField>
-        <ComboBox layoutX="406.0" layoutY="213.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30; -fx-border-color: black;" />
-        <Button id="blue" layoutX="758.0" layoutY="608.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="161.0" style="-fx-background-radius: 30 30 30 30; -fx-background-color: #0BA27A; -fx-font-weight: bold; -fx-font-family: 'Baskerville Old Face';" stylesheets="@../../sheets/stylesheet.css" text="UPDATE" textFill="WHITE" />
+        <ComboBox layoutX="406.0" layoutY="228.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30; -fx-border-color: black;" />
+        <Button id="blue" layoutX="752.0" layoutY="597.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="161.0" style="-fx-background-radius: 30 30 30 30; -fx-background-color: #0BA27A; -fx-font-weight: bold; -fx-font-family: 'Baskerville Old Face';" stylesheets="@../../sheets/stylesheet.css" text="UPDATE" textFill="WHITE" />
     </children>
 </AnchorPane>
