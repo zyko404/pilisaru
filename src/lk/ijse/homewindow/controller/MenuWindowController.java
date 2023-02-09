@@ -51,7 +51,7 @@ public class MenuWindowController {
         }
     }
 
-    public void btnPileOnAction(ActionEvent actionEvent) {
+    public void btnPileOnAction(ActionEvent actionEvent) {// button pile
     }
 
     public void btnCompostOnAction(ActionEvent actionEvent) throws IOException {
@@ -67,7 +67,7 @@ public class MenuWindowController {
         }
     }
 
-    public void btnInventoruOnAction(ActionEvent actionEvent) {
+    public void btnInventoruOnAction(ActionEvent actionEvent) {// inventory
     }
 
     public void btnSingOutOnAction(ActionEvent actionEvent) throws IOException {
