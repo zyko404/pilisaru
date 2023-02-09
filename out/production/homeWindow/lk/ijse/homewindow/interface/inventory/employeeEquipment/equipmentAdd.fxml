@@ -14,16 +14,16 @@
          <Image url="@../../../assepts/Equipment%20Add.png" />
       </image>
    </ImageView>
-        <TextField layoutX="460.0" layoutY="400.0" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+        <TextField layoutX="436.0" layoutY="400.0" prefHeight="50.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
       <font>
          <Font size="20.0" />
       </font>
    </TextField>
-        <ChoiceBox layoutX="450.0" layoutY="350.0" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
+        <ChoiceBox layoutX="435.0" layoutY="360.0" prefHeight="39.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
        <Button id="blue" layoutX="764.0" layoutY="618.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35;" stylesheets="@../../../sheets/stylesheet.css" text="Add">
       <font>
          <Font size="24.0" />
       </font>
    </Button>
-        <ChoiceBox layoutX="450.0" layoutY="460.0" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
+   <ChoiceBox layoutX="436.0" layoutY="467.0" prefHeight="39.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
 </AnchorPane>

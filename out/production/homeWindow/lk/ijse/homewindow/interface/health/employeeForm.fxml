@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.employeeFormController">
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.employeeFormController">
     <children>
       <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -12,7 +14,7 @@
          </image>
       </ImageView>
       <ComboBox layoutX="470.0" layoutY="155.0" prefHeight="39.0" prefWidth="196.0" promptText="2023" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
-      <ComboBox layoutX="470.0" layoutY="247.0" prefHeight="39.0" prefWidth="265.0" promptText="xxxxxxxxxxxxxxxxxxxxv" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
-      <TextArea editable="false" layoutX="35.0" layoutY="358.0" prefHeight="333.0" prefWidth="921.0" text="        &#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                                                                                                                                       View health Report&#10;&#10;&#10;&#10;&#10;&#10; &#10;" />
+      <ComboBox layoutX="470.0" layoutY="247.0" prefHeight="39.0" prefWidth="265.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <TextArea editable="false" layoutX="196.0" layoutY="331.0" prefHeight="333.0" prefWidth="664.0" text="        &#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                                                                                     View health Report&#10;&#10;&#10;&#10;&#10;&#10; &#10;" />
     </children>
 </AnchorPane>

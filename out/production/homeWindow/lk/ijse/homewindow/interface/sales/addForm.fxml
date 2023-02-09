@@ -14,7 +14,7 @@
          <Image url="@../../assepts/add%20sales.png" />
       </image>
    </ImageView>
-    <TextField layoutX="450.0" layoutY="370.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
+    <TextField layoutX="439.0" layoutY="370.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
       <font>
          <Font size="20.0" />
       </font></TextField>
@@ -23,12 +23,12 @@
           <Font name="Baskerville Old Face" size="20.0" />
         </font>
     </Button>
-   <TextField layoutX="450.0" layoutY="430.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
+   <TextField layoutX="440.0" layoutY="430.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
       <font>
          <Font size="20.0" />
       </font>
    </TextField>
-   <TextField layoutX="450.0" layoutY="490.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
+   <TextField layoutX="439.0" layoutY="490.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: BLACK;">
       <font>
          <Font size="20.0" />
       </font>
