@@ -2,50 +2,29 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.SiteAddVehicleController">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="13.0" prefHeight="80.0" prefWidth="611.0" text="Add Vehicle " textAlignment="CENTER" textFill="#0ba179">
-         <font>
-            <Font name="Baskerville" size="40.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="NONE" />
-         </cursor>
-      </Label>
-      <Label layoutX="250.0" layoutY="350.0" prefHeight="85.0" prefWidth="250.0" text="Vehicle ID ">
-         <font>
-            <Font name="Comic Sans MS" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="250.0" layoutY="410.0" prefHeight="85.0" prefWidth="250.0" text="Vehicle Name">
-         <font>
-            <Font name="Comic Sans MS" size="20.0" />
-         </font>
-      </Label>
-      <TextField layoutX="461.0" layoutY="421.0" prefHeight="50.0" prefWidth="250.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+      <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="132.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../assepts/AddVehicle.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="383.0" layoutY="476.0" prefHeight="50.0" prefWidth="321.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
          <font>
             <Font size="20.0" />
          </font></TextField>
-      <Line endX="100.0" fill="#12b16e" layoutX="447.0" layoutY="90.0" startX="-40.0" stroke="#12b16e" strokeWidth="3.0" />
-      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="750.0" layoutY="610.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="ADD" textFill="WHITE">
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="764.0" layoutY="612.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="133.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="ADD" textFill="WHITE">
          <font>
-            <Font name="Avenir Book" size="32.0" />
+            <Font name="Avenir Book" size="24.0" />
          </font>
       </Button>
-      <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="366.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../assepts/undraw_Collaborators_re_hont%20(1).png" />
-         </image>
-      </ImageView>
-      <TextField layoutX="461.0" layoutY="350.0" prefHeight="50.0" prefWidth="250.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+      <TextField layoutX="383.0" layoutY="387.0" prefHeight="50.0" prefWidth="321.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
          <font>
             <Font size="20.0" />
          </font>
