@@ -78,15 +78,33 @@ public class MenuWindowController {
         stage2.close();
     }
 
-    public void menuHelthUpdateOnAction(ActionEvent actionEvent) {
+    public void menuHelthUpdateOnAction(ActionEvent actionEvent) throws IOException {// health
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/health/addForm.fxml"));
+        Pane registerPane = fxmlLoader.load();
 
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void menuHelthGetInfoOnAction(ActionEvent actionEvent) {
+    public void menuHelthGetInfoOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/health/employeeForm.fxml"));
+        Pane registerPane = fxmlLoader.load();
 
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void btnSalaryUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnSalaryUpdateOnAction(ActionEvent actionEvent) throws IOException { //salary
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/salary/salaryUpdateForm.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -112,7 +130,7 @@ public class MenuWindowController {
         }
     }
 
-    public void btnVehicalAddOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnVehicalAddOnAction(ActionEvent actionEvent) throws IOException {// vehicle
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/vehical/addVehicle.fxml"));
         Pane registerPane = fxmlLoader.load();
 
