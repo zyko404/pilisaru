@@ -7,8 +7,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -65,7 +63,7 @@ public class MenuWindowController {
     }
 
     public void btnCompostOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/compost/compost.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/menuControllerCompost/compost.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
