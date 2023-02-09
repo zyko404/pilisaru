@@ -18,7 +18,7 @@
       <TextField layoutX="432.0" layoutY="233.0" prefHeight="43.0" prefWidth="299.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2 0;" />
       <ComboBox layoutX="432.0" layoutY="154.0" prefHeight="43.0" prefWidth="299.0" style="-fx-border-radius: 35; -fx-background-color: white; -fx-border-color: black;" />
       <ComboBox layoutX="432.0" layoutY="336.0" prefHeight="43.0" prefWidth="299.0" style="-fx-border-radius: 35; -fx-background-color: white; -fx-border-color: black;" />
-      <Button layoutX="745.0" layoutY="612.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="145.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="UPDATE" textFill="WHITE">
+      <Button id="blue" layoutX="745.0" layoutY="612.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="145.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../../../sheets/stylesheet.css" text="UPDATE" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
