@@ -2,11 +2,12 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="inventoryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MaininventoryController">
+<AnchorPane fx:id="inventoryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MaininventoryController">
    <children>
       <Label layoutX="414.0" layoutY="31.0" prefHeight="21.0" prefWidth="140.0" text="Inventory" textFill="#12b16e">
          <font>
@@ -61,7 +62,7 @@
                </font></Button>
          </children>
       </Pane>
-      <Pane id="ipad" layoutX="728.0" layoutY="119.0" prefHeight="250.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;" stylesheets="@../../../OneDrive/Desktop/editSheet.css">
+      <Pane layoutX="728.0" layoutY="119.0" prefHeight="250.0" prefWidth="200.0" style="-fx-border-color: black; -fx-background-color: white;">
          <children>
             <Label layoutX="59.0" layoutY="14.0" prefHeight="26.0" prefWidth="109.0" text="Chemicals" textFill="#12b16e">
                <font>
@@ -137,4 +138,4 @@
          </children>
       </Pane>
    </children>
-</Pane>
+</AnchorPane>
