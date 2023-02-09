@@ -25,9 +25,7 @@ public class LoginController {
     int number;
 
     public void btnSingInOnAction() throws IOException {
-
         ++chance;
-
         String check=passText.getText();
         String name=textName.getText();
         try{
