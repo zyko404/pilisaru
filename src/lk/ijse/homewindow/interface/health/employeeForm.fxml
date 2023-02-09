@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.employeeFormController">
+    <children>
+        <Text fill="#12b16e" layoutX="305.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Health information" textAlignment="CENTER">
+            <font>
+                <Font name="Baskerville Old Face" size="40.0" />
+            </font>
+        </Text>
+        <Line endX="100.0" layoutX="492.0" layoutY="115.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+      <Text layoutX="346.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="462.0" layoutY="290.0" prefHeight="39.0" prefWidth="196.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <ComboBox layoutX="462.0" layoutY="182.0" prefHeight="39.0" prefWidth="265.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <Text layoutX="259.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee NIC">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="35.0" layoutY="358.0" prefHeight="333.0" prefWidth="921.0" />
+    </children>
+</AnchorPane>
