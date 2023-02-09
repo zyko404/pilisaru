@@ -20,7 +20,7 @@
          <font>
             <Font size="24.0" />
          </font></TextField>
-      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="687.0" layoutY="594.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="190.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="DELETE" textFill="WHITE">
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="687.0" layoutY="594.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="190.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../../../sheets/stylesheet.css" text="DELETE" textFill="WHITE">
          <font>
             <Font name="Avenir Book" size="24.0" />
          </font>
