@@ -32,6 +32,9 @@ public class MenuWindowController {
     public MenuItem btnVehicalAdd;
     public MenuItem btnVehicalAdd1;
     public MenuItem btnVehicalUpdate;
+    public MenuItem btnEmployeeUpdate;
+    public MenuItem btnEmployeeAdd;
+    public MenuItem btnEmployeeGetInfo;
 
     public void btnHomeOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/homePage/homeForm.fxml"));
@@ -109,6 +112,45 @@ public class MenuWindowController {
 
     public void btnVehicalGetInfoOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/vehical/vehicleInformation.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeUpdateOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/employeeDetailUpdate.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeAddOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/addEmployee.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnEmployeeGetInfoOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/employeeInfometion.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
