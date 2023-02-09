@@ -31,6 +31,7 @@ public class MenuWindowController {
     public MenuItem btnSalaryGetInfo;
     public MenuItem btnVehicalAdd;
     public MenuItem btnVehicalAdd1;
+    public MenuItem btnVehicalUpdate;
 
     public void btnHomeOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/homePage/homeForm.fxml"));
@@ -80,7 +81,42 @@ public class MenuWindowController {
 
     }
 
-    public void btnVehicalAddOnAction(ActionEvent actionEvent) {
+    public void btnVehicalAddOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/vehical/addVehicle.fxml"));
+        Pane registerPane = fxmlLoader.load();
 
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnVehicalUpdateOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/vehical/updateVehicle.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnVehicalGetInfoOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/vehical/vehicleInformation.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

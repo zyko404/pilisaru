@@ -12,11 +12,11 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="1080.0" prefWidth="1525.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.addVehicleController">
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.addVehicleController">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="574.0" layoutY="70.0" prefHeight="80.0" prefWidth="446.0" text="Add Vehicle" textAlignment="CENTER" textFill="#0ba179">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="296.0" layoutY="18.0" prefHeight="80.0" prefWidth="446.0" text="Add Vehicle" textAlignment="CENTER" textFill="#0ba179">
          <font>
-            <Font name="Hannotate SC Regular" size="48.0" />
+            <Font name="System Bold" size="30.0" />
          </font>
          <cursor>
             <Cursor fx:constant="NONE" />
@@ -33,33 +33,33 @@
          </font>
       </Label>
       <SwingNode layoutX="169.0" layoutY="213.0" />
-      <Label layoutX="462.0" layoutY="556.0" prefHeight="85.0" prefWidth="350.0" text="Vehicle Number ">
+      <Label layoutX="130.0" layoutY="350.0" prefHeight="85.0" prefWidth="200.0" text="Vehicle Number ">
          <font>
-            <Font name="Avenir Book" size="32.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="462.0" layoutY="631.0" prefHeight="85.0" prefWidth="350.0" text="Local Council">
+      <Label layoutX="127.0" layoutY="413.0" prefHeight="85.0" prefWidth="200.0" text="Local Council">
          <font>
-            <Font name="Avenir Book" size="32.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="462.0" layoutY="706.0" prefHeight="85.0" prefWidth="350.0" text="Weight of Vehicle">
+      <Label layoutX="130.0" layoutY="498.0" prefHeight="85.0" prefWidth="200.0" text="Weight of Vehicle">
          <font>
-            <Font name="Avenir Book" size="32.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="854.0" layoutY="624.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
-      <TextField layoutX="854.0" layoutY="541.0" prefHeight="78.0" prefWidth="436.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
-      <Line endX="100.0" fill="#12b16e" layoutX="790.0" layoutY="165.0" startX="-100.0" stroke="#12b16e" strokeWidth="6.0" />
-      <ImageView fitHeight="303.0" fitWidth="491.0" layoutX="541.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+      <TextField layoutX="400.0" layoutY="438.0" prefHeight="33.0" prefWidth="368.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+      <TextField layoutX="400.0" layoutY="356.0" prefHeight="42.0" prefWidth="368.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+      <Line endX="86.66668701171875" fill="#12b16e" layoutX="488.0" layoutY="87.0" startX="-33.333343505859375" stroke="#12b16e" strokeWidth="3.0" />
+      <ImageView fitHeight="303.0" fitWidth="300.0" layoutX="385.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../assepts/undraw_Collaborators_re_hont (1).png" />
          </image>
       </ImageView>
-      <ChoiceBox layoutX="848.0" layoutY="720.0" prefHeight="72.0" prefWidth="362.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
-      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="982.0" layoutY="885.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="314.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="ADD" textFill="WHITE">
+      <ChoiceBox layoutX="400.0" layoutY="510.0" prefHeight="53.0" prefWidth="372.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="795.0" layoutY="650.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="ADD" textFill="WHITE">
          <font>
-            <Font name="Avenir Book" size="32.0" />
+            <Font size="20.0" />
          </font>
       </Button>
    </children>

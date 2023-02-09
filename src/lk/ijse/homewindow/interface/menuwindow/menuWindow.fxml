@@ -110,9 +110,9 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="394.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
               <items>
-                <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Update Vehical" />
-                <MenuItem mnemonicParsing="false" text="Add Vehical" />
-                  <MenuItem fx:id="btnVehicalAdd1" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Get Vehical Informaation" />
+                <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Add Vehical" />
+                <MenuItem fx:id="btnVehicalUpdate" mnemonicParsing="false" onAction="#btnVehicalUpdateOnAction" text="UpdateVehical" />
+                  <MenuItem fx:id="btnVehicalAdd1" mnemonicParsing="false" onAction="#btnVehicalGetInfoOnAction" text="Get Vehical Informaation" />
               </items>
                <font>
                   <Font size="24.0" />
