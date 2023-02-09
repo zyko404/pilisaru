@@ -24,5 +24,5 @@
          <Font size="20.0" />
       </font>
    </TextField>
-        <ComboBox layoutX="550.0" layoutY="448.0" prefHeight="50.0" prefWidth="300.0" promptText="xxxxxxxxxxxxxxxxxv" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
+        <ComboBox layoutX="550.0" layoutY="448.0" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
 </AnchorPane>

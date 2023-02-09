@@ -120,12 +120,12 @@
                </font>
             </Label>
             <Line endX="41.0" layoutX="101.0" layoutY="38.0" startX="-53.0" stroke="#12b16e" />
-            <Button id="lion" layoutX="31.0" layoutY="86.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="information">
+            <Button id="lion" fx:id="btnInventoryCemicalIncormation" layoutX="31.0" layoutY="86.0" mnemonicParsing="false" onAction="#btnInventoryCompostInformationOnAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="information">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button id="lion" layoutX="43.0" layoutY="164.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
+            <Button id="lion" fx:id="btnInventoryCompostUpdate" layoutX="43.0" layoutY="164.0" mnemonicParsing="false" onAction="#btnInventoryCompostUpdateOnAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
                <font>
                   <Font size="20.0" />
                </font>

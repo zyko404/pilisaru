@@ -20,12 +20,12 @@
       <font>
          <Font size="20.0" />
       </font></Button>
-   <TextField layoutX="413.0" layoutY="442.0" prefHeight="44.0" prefWidth="450.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: white; -fx-border-color: black;">
+   <TextField layoutX="413.0" layoutY="442.0" prefHeight="44.0" prefWidth="319.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: white; -fx-border-color: black;">
       <opaqueInsets>
          <Insets left="1.0" />
       </opaqueInsets>
    </TextField>
-   <TextField layoutX="413.0" layoutY="533.0" prefHeight="44.0" prefWidth="450.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: white; -fx-border-color: black;">
+   <TextField layoutX="413.0" layoutY="533.0" prefHeight="44.0" prefWidth="319.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: white; -fx-border-color: black;">
       <opaqueInsets>
          <Insets left="1.0" />
       </opaqueInsets>

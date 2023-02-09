@@ -16,11 +16,11 @@
       </ImageView>
       <ComboBox layoutX="335.0" layoutY="142.0" prefWidth="150.0" promptText="January" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" visibleRowCount="12" />
       <ComboBox layoutX="740.0" layoutY="142.0" prefWidth="150.0" promptText="2023" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
-      <TableView layoutX="122.0" layoutY="263.0" prefHeight="346.0" prefWidth="749.0" style="-fx-background-color: white;">
+      <TableView layoutX="175.0" layoutY="263.0" prefHeight="346.0" prefWidth="749.0" style="-fx-background-color: white;">
         <columns>
           <TableColumn prefWidth="152.52278900146484" text="Date" />
-          <TableColumn prefWidth="125.4771728515625" text="Montly Income" />
-            <TableColumn maxWidth="50000.0" prefWidth="225.8182373046875" text="Sales(kg)">
+          <TableColumn prefWidth="131.0" text="Montly Income" />
+            <TableColumn maxWidth="50000.0" prefWidth="220.0" text="Sales(kg)">
                <columns>
                   <TableColumn maxWidth="50000.0" prefWidth="63.0" text="Tea" />
                   <TableColumn maxWidth="50000.0" prefWidth="90.0" text="Coconut" />
