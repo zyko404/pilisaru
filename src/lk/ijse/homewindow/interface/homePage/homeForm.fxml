@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.HomeFormController">
+<AnchorPane focusTraversable="true" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.HomeFormController">
     <children>
         <Text fill="#12b16e" layoutX="402.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Page" textAlignment="CENTER">
             <font>
@@ -23,7 +23,7 @@
       </ImageView>
       <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../assepts/Untitled.jpg" />
+            <Image url="@../../assepts/Untitled3m.png" />
          </image>
       </ImageView>
       <Text layoutX="106.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ministry of Environment and Natural Resources is the main policy making body for environmental sector in Sri">
