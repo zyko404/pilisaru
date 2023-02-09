@@ -23,7 +23,7 @@
       <ChoiceBox layoutX="417.0" layoutY="549.0" prefHeight="44.0" prefWidth="442.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
 
       <ChoiceBox layoutX="415.0" layoutY="366.0" prefHeight="44.0" prefWidth="442.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
-      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="795.0" layoutY="644.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="Update" textFill="WHITE">
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="795.0" layoutY="644.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
