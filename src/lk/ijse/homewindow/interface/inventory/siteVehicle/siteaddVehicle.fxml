@@ -2,37 +2,54 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="720.0" prefWidth="950.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.siteAddVehicleController">
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.SiteAddVehicleController">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="362.0" layoutY="21.0" prefHeight="50.0" prefWidth="269.0" text="Add Vehicle " textAlignment="CENTER" textFill="#0ba179">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="13.0" prefHeight="80.0" prefWidth="611.0" text="Add Vehicle " textAlignment="CENTER" textFill="#0ba179">
          <font>
-            <Font name="Comic Sans MS" size="30.0" />
+            <Font name="Baskerville" size="40.0" />
          </font>
          <cursor>
             <Cursor fx:constant="NONE" />
          </cursor>
       </Label>
-      <Label layoutX="179.0" layoutY="202.0" prefHeight="49.0" prefWidth="101.0" text="Vehicle ID ">
-         <font>
-            <Font name="Calisto MT" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="165.0" layoutY="337.0" prefHeight="60.0" prefWidth="141.0" text=" Vehicle Name">
+      <Label layoutX="250.0" layoutY="350.0" prefHeight="85.0" prefWidth="250.0" text="Vehicle ID ">
          <font>
             <Font name="Comic Sans MS" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="493.0" layoutY="345.0" prefHeight="43.0" prefWidth="349.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
-      <Line endX="45.0" fill="#12b16e" layoutX="508.0" layoutY="90.0" startX="-59.0" stroke="#12b16e" strokeWidth="6.0" />
-      <ChoiceBox layoutX="486.0" layoutY="205.0" prefHeight="39.0" prefWidth="362.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
-      <Button id="blue" layoutX="776.0" layoutY="646.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="144.0" style="-fx-background-radius: 35; -fx-background-color: #12b16e;" stylesheets="@../../../sheets/stylesheet.css" text="Button" />
+      <Label layoutX="250.0" layoutY="410.0" prefHeight="85.0" prefWidth="250.0" text="Vehicle Name">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="461.0" layoutY="421.0" prefHeight="50.0" prefWidth="250.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Line endX="100.0" fill="#12b16e" layoutX="447.0" layoutY="90.0" startX="-40.0" stroke="#12b16e" strokeWidth="3.0" />
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="750.0" layoutY="610.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../sheets/stylesheet.css" text="ADD" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="32.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="366.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assepts/undraw_Collaborators_re_hont%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="461.0" layoutY="350.0" prefHeight="50.0" prefWidth="250.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
    </children>
    <cursor>
       <Cursor fx:constant="S_RESIZE" />
