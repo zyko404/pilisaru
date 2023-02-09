@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.AddEmployeeController">
+<AnchorPane focusTraversable="true" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.AddEmployeeController">
    <Label layoutX="403.0" layoutY="18.0" text="Add Employee" textFill="#12b16e">
       <font>
          <Font name="Arial Rounded MT Bold" size="30.0" />

@@ -2,7 +2,8 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -20,17 +21,11 @@
                   <Image url="@../../assepts/Group%205.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="48.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" />
             <Button fx:id="btnHome" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="150.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="-487.0" layoutY="-5367.0" pickOnBounds="true" preserveRatio="true" smooth="false" x="520.0" y="5525.0">
-               <image>
-                  <Image url="@../../assepts/home2.png" />
-               </image>
-            </ImageView>
             <Label layoutX="80.0" layoutY="158.0" text="HOME" textFill="WHITE">
                <font>
                   <Font size="24.0" />
@@ -41,37 +36,12 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnHealth" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="270.0" mnemonicParsing="false" onAction="#btnHelthOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="577.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnSalary" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnSalaryOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnVehicle" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="390.0" mnemonicParsing="false" onAction="#btnVehicleOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnSales" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnSalesOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnEmployee" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="510.0" mnemonicParsing="false" onAction="#btnEmployeeOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="570.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Button>
-            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="630.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="638.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -81,68 +51,12 @@
                   <Image url="@../../assepts/i3square.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="34.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/heartsearch.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="34.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/dollarsquare.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="35.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/car.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="28.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="36.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/diagram.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="34.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/people.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="33.0" layoutY="577.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../assepts/blur.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="27.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/notetext.png" />
-               </image>
-            </ImageView>
             <Label layoutX="80.0" layoutY="219.0" text="PILE" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="80.0" layoutY="277.0" text="HEALTH" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="80.0" layoutY="335.0" text="SALARY" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="80.0" layoutY="397.0" text="VEHICLE" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="80.0" layoutY="456.0" text="SALES" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="80.0" layoutY="520.0" text="EMPLOYE" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -157,31 +71,93 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="300.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="-493.0" layoutY="-5366.0" pickOnBounds="true" preserveRatio="true" smooth="false" x="520.0" y="5525.0">
                <image>
-                  <Image url="@../../assepts/arrowright2.png" />
+                  <Image url="@../../assepts/home2.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="300.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/arrowright2.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="300.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/arrowright2.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="300.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/arrowright2.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="300.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assepts/arrowright2.png" />
-               </image>
-            </ImageView>
+            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="274.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="btnHelthUpdate" mnemonicParsing="false" onAction="#menuHelthUpdateOnAction" text="Update Health" />
+                <MenuItem fx:id="btnGetinfo" mnemonicParsing="false" onAction="#menuHelthGetInfoOnAction" text="Get Health Information" />
+              </items>
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/heartsearch.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="10.0" layoutY="335.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="btnSalaryUpdate" mnemonicParsing="false" onAction="#btnSalaryUpdateOnAction" text="Update Salary" />
+                <MenuItem fx:id="btnSalaryGetInfo" mnemonicParsing="false" onAction="#btnSalaryGetInfoOnAction" text="Salary Information" />
+              </items>
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/notetext.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuButton>
+            <MenuButton layoutX="10.0" layoutY="394.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Add Vehical" />
+                <MenuItem fx:id="btnVehicalUpdate" mnemonicParsing="false" onAction="#btnVehicalUpdateOnAction" text="UpdateVehical" />
+                  <MenuItem fx:id="btnVehicalAdd1" mnemonicParsing="false" onAction="#btnVehicalGetInfoOnAction" text="Get Vehical Informaation" />
+              </items>
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/car.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuButton>
+            <MenuButton layoutX="10.0" layoutY="452.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Get Information" />
+                <MenuItem mnemonicParsing="false" text="Add Detail" />
+              </items>
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/diagram.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuButton>
+            <MenuButton layoutX="10.0" layoutY="514.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="btnEmployeeUpdate" mnemonicParsing="false" onAction="#btnEmployeeUpdateOnAction" text="Update Employe" />
+                <MenuItem fx:id="btnEmployeeAdd" mnemonicParsing="false" onAction="#btnEmployeeAddOnAction" text="Add Employee" />
+                  <MenuItem fx:id="btnEmployeeGetInfo" mnemonicParsing="false" onAction="#btnEmployeeGetInfoOnAction" text="Get Employee InforMation" />
+              </items>
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assepts/people.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuButton>
          </children>
       </Pane>
       <AnchorPane fx:id="mainAncorPane" layoutX="609.0" layoutY="213.0" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -193,10 +169,10 @@
             </Text>
             <ImageView fitHeight="296.0" fitWidth="317.0" layoutX="155.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../assepts/Untitled.jpg" />
+                  <Image url="@../../assepts/Untitled3m.png" />
                </image>
             </ImageView>
-            <Line endX="58.0" layoutX="474.0" layoutY="65.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+            <Line endX="58.0" layoutX="483.0" layoutY="72.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
             <ImageView fitHeight="335.0" fitWidth="335.0" layoutX="525.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../assepts/government-logo-2%201.png" />
@@ -257,102 +233,6 @@
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </Button>
-            <AnchorPane fx:id="helthAncorPane" layoutX="18.0" layoutY="274.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="274.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" onDragDetected="#btnUpdateOnAction" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" fx:id="btnUpdate" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnupdateOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Health" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" onAction="#btnGetinfiOnAction" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Health Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="salaryAncorPane" layoutX="38.0" layoutY="432.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="354.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="vehicleAncorPane" layoutX="393.0" layoutY="368.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="410.0">
-               <children>
-                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Salary" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Salary Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Vehicle" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="salseAncorPane" layoutX="357.0" layoutY="231.0" prefHeight="114.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="466.0">
-               <children>
-                  <ImageView fitHeight="114.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../assepts/health%20box.png" />
-                     </image>
-                  </ImageView>
-                  <Button id="updtHlth" layoutX="-2.0" layoutY="10.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Info" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="1.0" layoutY="51.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Details" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Separator layoutY="53.0" prefHeight="0.0" prefWidth="273.0" />
-               </children>
-            </AnchorPane>
-            <AnchorPane fx:id="employeeAncorPane" layoutX="403.0" layoutY="378.0" prefHeight="177.0" prefWidth="279.0" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="522.0">
-               <children>
-                  <Button id="updtHlth" layoutX="7.0" layoutY="11.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Update Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="add" layoutX="-15.0" layoutY="99.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Get Employee Info" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-                  <Button id="midle" layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="279.0" stylesheets="@../../sheets/style.css" text="Add Employee" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
-                     <font>
-                        <Font size="22.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
          </children>
       </AnchorPane>
    </children>
