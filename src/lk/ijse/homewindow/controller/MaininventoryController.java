@@ -24,7 +24,7 @@ public class MaininventoryController {
     public Button btnInventoryCemicalIncormation;
     public Button btnInventoryCompostUpdate;
 
-    public void setBtnInventoryMachineUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void setBtnInventoryMachineUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineAdd.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -37,7 +37,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryMachineDeleteOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryMachineDeleteOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineDelete.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -50,7 +50,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryMachinUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryMachinUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineUdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -63,7 +63,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnSitevehicalAddOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnSitevehicalAddOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/siteVehicle/siteaddVehicle.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -76,7 +76,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnSiteVehicalDeleteOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnSiteVehicalDeleteOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/siteVehicle/siteVehicleDelete.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -89,7 +89,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnSiteVehicalUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnSiteVehicalUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/siteVehicle/siteVehicleDetailUpdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -102,7 +102,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnEmployeeEquipmentOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnEmployeeEquipmentOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/equipmentAdd.fxml"));
         Pane registerPane = fxmlLoader.load();
 

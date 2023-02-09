@@ -16,7 +16,7 @@
       </image>
    </ImageView>
    <ComboBox layoutX="413.0" layoutY="361.0" prefHeight="44.0" prefWidth="319.0" style="-fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black; -fx-background-color: white;" />
-   <Button fx:id="btnUpdate" layoutX="721.0" layoutY="629.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="44.0" prefWidth="150.0" style="-fx-border-radius: 35; -fx-background-radius: 35; -fx-background-color: #0BA27A;" text="Update" textFill="WHITE">
+   <Button id="blue" fx:id="btnUpdate" layoutX="721.0" layoutY="629.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="44.0" prefWidth="150.0" style="-fx-border-radius: 35; -fx-background-radius: 35; -fx-background-color: #0BA27A;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="WHITE">
       <font>
          <Font size="20.0" />
       </font></Button>
@@ -24,10 +24,16 @@
       <opaqueInsets>
          <Insets left="1.0" />
       </opaqueInsets>
+      <font>
+         <Font size="20.0" />
+      </font>
    </TextField>
    <TextField layoutX="413.0" layoutY="533.0" prefHeight="44.0" prefWidth="319.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: white; -fx-border-color: black;">
       <opaqueInsets>
          <Insets left="1.0" />
       </opaqueInsets>
+      <font>
+         <Font size="20.0" />
+      </font>
    </TextField>
 </AnchorPane>
