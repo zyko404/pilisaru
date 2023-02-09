@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="168.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.sensorsController.SensorsPopUpContriller">
+   <children>
+      <Label layoutX="25.0" layoutY="56.0" text="water Level :" />
+      <Label layoutX="25.0" layoutY="99.0" text="Temperature Level :" />
+      <Label layoutX="213.0" layoutY="56.0" text="_________" />
+      <Label layoutX="213.0" layoutY="99.0" text="_________" />
+      <Label layoutX="83.0" layoutY="14.0" text="Pile ID :" />
+      <Label layoutX="131.0" layoutY="14.0" text="_________" />
+   </children>
+</AnchorPane>
