@@ -29,12 +29,12 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Button fx:id="btnPile" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="205.0" mnemonicParsing="false" onAction="#btnPileOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnPile" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#btnPileOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="567.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnCompost" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="570.0" mnemonicParsing="false" onAction="#btnCompostOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -74,7 +74,7 @@
                   <Image url="@../../assepts/home2.png" />
                </image>
             </ImageView>
-            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="261.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
+            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="270.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnHelthUpdate" mnemonicParsing="false" onAction="#menuHelthUpdateOnAction" text="Update Health" />
                 <MenuItem fx:id="btnGetinfo" mnemonicParsing="false" onAction="#menuHelthGetInfoOnAction" text="Get Health Information" />
@@ -90,7 +90,7 @@
                   <Font size="24.0" />
                </font>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="322.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="330.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnSalaryUpdate" mnemonicParsing="false" onAction="#btnSalaryUpdateOnAction" text="Update Salary" />
                 <MenuItem fx:id="btnSalaryGetInfo" mnemonicParsing="false" onAction="#btnSalaryGetInfoOnAction" text="Salary Information" />
@@ -106,7 +106,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="383.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="390.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Add Vehical" />
                 <MenuItem fx:id="btnVehicalUpdate" mnemonicParsing="false" onAction="#btnVehicalUpdateOnAction" text="UpdateVehical" />
@@ -123,7 +123,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="445.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="450.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnselesGetInfo" mnemonicParsing="false" onAction="#btnselesGetInfoOnAction" text="Get Information" />
                 <MenuItem fx:id="btnselesAddDetail" mnemonicParsing="false" onAction="#btnseleseAddDetailOnAction" text="Add Detail" />
@@ -139,7 +139,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <MenuButton layoutX="10.0" layoutY="506.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
+            <MenuButton layoutX="10.0" layoutY="510.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnEmployeeUpdate" mnemonicParsing="false" onAction="#btnEmployeeUpdateOnAction" text="Update Employe" />
                 <MenuItem fx:id="btnEmployeeAdd" mnemonicParsing="false" onAction="#btnEmployeeAddOnAction" text="Add Employee" />
