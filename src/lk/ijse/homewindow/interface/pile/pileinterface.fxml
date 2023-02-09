@@ -1,98 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.PileInterfaceController">
    <children>
-      <Label alignment="BASELINE_CENTER" layoutX="-26.0" layoutY="303.0" prefHeight="65.0" prefWidth="141.0" rotate="-90.0" text="Piles" textFill="#12b16e">
-         <font>
-            <Font name="Comic Sans MS" size="40.0" />
-         </font>
-      </Label>
-      <Line endX="109.33331298828125" layoutX="29.0" layoutY="337.0" rotate="-90.0" startX="-13.33331298828125" stroke="#12b16e" strokeWidth="4.0" />
-      <Label layoutX="200.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 1" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="281.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 2" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="362.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 3" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="442.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 4" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="524.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 5" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="605.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 6" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="686.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 7" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="767.0" layoutY="82.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Week 8" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="145.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Sun" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="217.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Mon" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="290.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Tue" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="358.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Wed" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="433.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Thu" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="508.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Fri" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="110.0" layoutY="585.0" prefHeight="37.0" prefWidth="53.0" style="-fx-background-color: white;" text="Sta" wrapText="true">
-         <font>
-            <Font name="Comic Sans MS Bold" size="18.0" />
-         </font>
-      </Label>
-      <GridPane layoutX="183.0" layoutY="132.0" prefHeight="515.0" prefWidth="649.0">
+      <GridPane layoutX="193.0" layoutY="158.0" prefHeight="515.0" prefWidth="649.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -117,5 +35,10 @@
             <Button id="blue" mnemonicParsing="false" prefHeight="80.0" prefWidth="81.0" stylesheets="@../../sheets/stylesheet.css" text="Button" />
          </children>
       </GridPane>
+      <ImageView fitHeight="102.0" fitWidth="298.0" layoutX="344.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/PileHeader.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
