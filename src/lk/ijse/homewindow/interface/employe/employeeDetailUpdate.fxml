@@ -15,7 +15,7 @@
          <Image url="@../../assepts/EmployeeDetailsUpdate.png" />
       </image>
    </ImageView>
-   <ComboBox layoutX="419.0" layoutY="361.0" prefHeight="44.0" prefWidth="319.0" style="-fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black; -fx-background-color: white;" />
+   <ComboBox layoutX="413.0" layoutY="361.0" prefHeight="44.0" prefWidth="319.0" style="-fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black; -fx-background-color: white;" />
    <Button fx:id="btnUpdate" layoutX="721.0" layoutY="629.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="44.0" prefWidth="150.0" style="-fx-border-radius: 35; -fx-background-radius: 35; -fx-background-color: #0BA27A;" text="Update" textFill="WHITE">
       <font>
          <Font size="20.0" />
