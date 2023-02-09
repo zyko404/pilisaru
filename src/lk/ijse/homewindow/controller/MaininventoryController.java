@@ -18,6 +18,8 @@ public class MaininventoryController {
     public Button btnEmployeeEquipment;
     public Button btnEmployeeEquipmentDelete;
     public Button btnEmployeeEquipmentUpdate;
+    public Button btnInventoryChemicalAdd;
+    public Button btnInventoryChemicalDelete;
 
     public void setBtnInventoryMachineUpdateOnAction(ActionEvent actionEvent) throws IOException {
         System.out.println("dose not correct");
@@ -116,6 +118,32 @@ public class MaininventoryController {
 
     public void btnEmployeeEquipmentUpdateOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/employeeEqupmentUpdate.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnInventoryCemicalAddOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../../../../out/production/homeWindow/lk/ijse/homewindow/interface/cemical/addchemical.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnInventoryCemicalDelete(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../../../../out/production/homeWindow/lk/ijse/homewindow/interface/cemical/chemical.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
