@@ -35,6 +35,8 @@ public class MenuWindowController {
     public MenuItem btnEmployeeUpdate;
     public MenuItem btnEmployeeAdd;
     public MenuItem btnEmployeeGetInfo;
+    public MenuItem btnselesGetInfo;
+    public MenuItem btnselesAddDetail;
 
     public void btnHomeOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/homePage/homeForm.fxml"));
@@ -197,6 +199,32 @@ public class MenuWindowController {
 
     public void btnEmployeeGetInfoOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/employe/employeeInfometion.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnselesGetInfoOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/sales/salesForm.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void btnseleseAddDetailOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/sales/addForm.fxml"));
         Pane registerPane = fxmlLoader.load();
 
         try {
