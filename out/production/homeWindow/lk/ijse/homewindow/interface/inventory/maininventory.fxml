@@ -79,7 +79,7 @@
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button id="lion" layoutX="44.0" layoutY="168.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
+            <Button id="lion" fx:id="btnInventoryCemicalUpdate" layoutX="44.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnInventoryCemicalUpdateOnAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Update" textFill="GREY">
                <font>
                   <Font size="20.0" />
                </font>

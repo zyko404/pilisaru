@@ -39,7 +39,7 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="622.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
+            <Button fx:id="btnInventory" alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="630.0" mnemonicParsing="false" onAction="#btnInventoruOnAction" prefHeight="45.0" prefWidth="350.0" stylesheets="@../../sheets/style.css" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -64,7 +64,7 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <Label layoutX="78.0" layoutY="630.0" text="INVENTORY" textFill="WHITE">
+            <Label layoutX="78.0" layoutY="640.0" text="INVENTORY" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -156,7 +156,7 @@
                   </ImageView>
                </graphic>
             </MenuButton>
-            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="31.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="31.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../assepts/InventoryIcon.png" />
                </image>
