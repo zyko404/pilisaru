@@ -29,7 +29,7 @@
       <font>
          <Font name="System Bold" size="20.0" />
       </font></Label>
-   <ComboBox id="blue" layoutX="433.0" layoutY="178.0" prefHeight="44.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-radius: 35; -fx-background-radius: 35; -fx-border-color: black;" />
+   <ComboBox id="blue" layoutX="430.0" layoutY="178.0" prefHeight="44.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-radius: 35; -fx-background-radius: 35; -fx-border-color: black;" />
    <TextField id="blue" layoutX="433.0" layoutY="253.0" prefHeight="44.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
    <ComboBox id="blue" layoutX="430.0" layoutY="332.0" prefHeight="44.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-radius: 35; -fx-background-radius: 35; -fx-border-color: black;" />
    <ImageView fitHeight="224.0" fitWidth="365.0" layoutX="337.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
