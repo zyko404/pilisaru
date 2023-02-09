@@ -8,7 +8,7 @@
    <children>
       <Label layoutX="25.0" layoutY="56.0" text="water Level :" />
       <Label layoutX="25.0" layoutY="99.0" text="Temperature Level :" />
-      <Label layoutX="213.0" layoutY="56.0" text="_________" />
+      <Label fx:id="lblWaterLevel" layoutX="213.0" layoutY="56.0" text="_________" />
       <Label layoutX="213.0" layoutY="99.0" text="_________" />
       <Label layoutX="83.0" layoutY="14.0" text="Pile ID :" />
       <Label layoutX="131.0" layoutY="14.0" text="_________" />

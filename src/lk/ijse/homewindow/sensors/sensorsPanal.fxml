@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.sensorsController.SensorsPanalController">
    <children>
-      <Slider layoutX="129.0" layoutY="26.0" orientation="VERTICAL" prefHeight="293.0" prefWidth="82.0" showTickLabels="true" showTickMarks="true" style="-fx-background-color: white;" />
+      <Slider fx:id="sliderWaterLevel" layoutX="129.0" layoutY="26.0" onDragDetected="#sliderWaterLevelOnAction" orientation="VERTICAL" prefHeight="293.0" prefWidth="82.0" showTickLabels="true" showTickMarks="true" style="-fx-background-color: white;" />
       <Slider layoutX="362.0" layoutY="26.0" orientation="VERTICAL" prefHeight="293.0" prefWidth="82.0" showTickLabels="true" showTickMarks="true" style="-fx-background-color: white;" />
       <Label layoutX="135.0" layoutY="343.0" text="Water Sensor">
          <font>
