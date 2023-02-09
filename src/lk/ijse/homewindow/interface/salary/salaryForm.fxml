@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.SalaryFormController">
+   <children>
+      <Text fill="#12b16e" layoutX="335.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary information" textAlignment="CENTER">
+         <font>
+            <Font name="Baskerville Old Face" size="40.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="481.0" layoutY="110.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+      <Text layoutX="177.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee NIC">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="392.0" layoutY="149.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30;" />
+      <Text layoutX="177.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="272.0" layoutY="246.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-color: black; -fx-border-radius: 30 30 30 30;" visibleRowCount="12" />
+      <Text layoutX="605.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="679.0" layoutY="245.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-color: black; -fx-border-radius: 30 30 30 30;" />
+      <TableView editable="true" layoutX="10.0" layoutY="360.0" prefHeight="328.0" prefWidth="966.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <columns>
+          <TableColumn prefWidth="100.0" text="Month" />
+          <TableColumn maxWidth="50000.0" prefWidth="176.0" text="Standard W/Hours" />
+            <TableColumn maxWidth="50000.0" minWidth="0.0" prefWidth="138.0" text="Worked Hours" />
+            <TableColumn minWidth="0.0" prefWidth="101.0" text="OT Hours" />
+            <TableColumn minWidth="0.0" prefWidth="94.0" text="OT Pay" />
+            <TableColumn minWidth="0.0" prefWidth="106.0" text="Attendance" />
+            <TableColumn prefWidth="121.0" text="Safety Pay" />
+            <TableColumn minWidth="0.0" prefWidth="129.0" text="Total" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
