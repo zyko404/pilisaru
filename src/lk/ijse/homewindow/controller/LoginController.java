@@ -19,7 +19,7 @@ public class LoginController {
     public Label lblWarning;
     public Label lblIncorrectPassword;
     public Hyperlink hyperFogetPass;
-    int chance=0;
+    private int chance=0;
     Pane registerPane;
     String passValue;
 
@@ -31,7 +31,6 @@ public class LoginController {
         String name=textName.getText();
         int number = Integer.parseInt(check);
         passText.setText("");
-        //char passCount1='z';
         int password=404;
         if(password == number && name.equals("zyko")){
             try {
@@ -56,6 +55,7 @@ public class LoginController {
             mainframethisWindow.getChildren().clear();
             mainframethisWindow.getChildren().setAll(registerPane);
         }
+
     }
     public void passOnActionKeyTyped() {
         lblIncorrectPassword.setVisible(false);

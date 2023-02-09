@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MenuWindowController">
+<AnchorPane prefHeight="720.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.MenuWindowController">
    <children>
       <Pane layoutX="31.0" layoutY="29.0" prefHeight="720.0" prefWidth="380.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -76,10 +76,10 @@
                   <Image url="@../../assepts/home2.png" />
                </image>
             </ImageView>
-            <MenuButton layoutX="10.0" layoutY="274.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
+            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="274.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   HEALTH" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Update Health" />
-                <MenuItem mnemonicParsing="false" text="Get Health Information" />
+                <MenuItem fx:id="btnHelthUpdate" mnemonicParsing="false" onAction="#menuHelthUpdateOnAction" text="Update Health" />
+                <MenuItem fx:id="btnGetinfo" mnemonicParsing="false" onAction="#menuHelthGetInfoOnAction" text="Get Health Information" />
               </items>
                <graphic>
                   <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
@@ -94,8 +94,8 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="335.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="    SALARY" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Update Salary" />
-                <MenuItem mnemonicParsing="false" text="Salary Information" />
+                <MenuItem fx:id="btnSalaryUpdate" mnemonicParsing="false" onAction="#btnSalaryUpdateOnAction" text="Update Salary" />
+                <MenuItem fx:id="btnSalaryGetInfo" mnemonicParsing="false" onAction="#btnSalaryGetInfoOnAction" text="Salary Information" />
               </items>
                <font>
                   <Font size="24.0" />
@@ -110,8 +110,9 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="394.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   VEHICLE" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Add Vehicle" />
-                <MenuItem mnemonicParsing="false" text="Vehicle Information" />
+                <MenuItem fx:id="btnVehicalAdd" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Update Vehical" />
+                <MenuItem mnemonicParsing="false" text="Add Vehical" />
+                  <MenuItem fx:id="btnVehicalAdd1" mnemonicParsing="false" onAction="#btnVehicalAddOnAction" text="Get Vehical Informaation" />
               </items>
                <font>
                   <Font size="24.0" />
@@ -126,8 +127,8 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="452.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   SALES" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Add Sales" />
-                <MenuItem mnemonicParsing="false" text="Get Sales Information" />
+                <MenuItem mnemonicParsing="false" text="Get Information" />
+                <MenuItem mnemonicParsing="false" text="Add Detail" />
               </items>
                <font>
                   <Font size="24.0" />
@@ -142,8 +143,9 @@
             </MenuButton>
             <MenuButton layoutX="10.0" layoutY="514.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" text="   EMPLOYEE" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Add Employee " />
-                <MenuItem mnemonicParsing="false" text="Employee Information" />
+                <MenuItem mnemonicParsing="false" text="Update Employe" />
+                <MenuItem mnemonicParsing="false" text="Add Employee" />
+                  <MenuItem mnemonicParsing="false" text="Get Employee InforMation" />
               </items>
                <font>
                   <Font size="24.0" />
