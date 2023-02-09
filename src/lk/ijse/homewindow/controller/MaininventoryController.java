@@ -23,7 +23,16 @@ public class MaininventoryController {
     public Button btnInventoryCemicalUpdate;
 
     public void setBtnInventoryMachineUpdateOnAction(ActionEvent actionEvent) throws IOException {
-        System.out.println("dose not correct");
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/machine/machineAdd.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            inventoryPane.getChildren().clear();
+            inventoryPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void btnInventoryMachineDeleteOnAction(ActionEvent actionEvent) throws IOException {
