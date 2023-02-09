@@ -69,12 +69,12 @@
                </font>
             </Label>
             <Line endX="31.0" layoutX="128.0" layoutY="38.0" startX="-84.0" stroke="#12b16e" />
-            <Button id="lion" layoutX="42.0" layoutY="50.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Add">
+            <Button id="lion" fx:id="btnInventoryChemicalAdd" layoutX="42.0" layoutY="50.0" mnemonicParsing="false" onAction="#btnInventoryCemicalAddOnAction" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Add">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button id="lion" layoutX="43.0" layoutY="106.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Delete" textFill="GREY">
+            <Button id="lion" fx:id="btnInventoryChemicalDelete" layoutX="43.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnInventoryCemicalDelete" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #ffffff; -fx-background-radius: 35px;" stylesheets="@../../sheets/stylesheet.css" text="Delete" textFill="GREY">
                <font>
                   <Font size="20.0" />
                </font>
