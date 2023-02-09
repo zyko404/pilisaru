@@ -67,7 +67,17 @@ public class MenuWindowController {
         }
     }
 
-    public void btnInventoruOnAction(ActionEvent actionEvent) {// inventory
+    public void btnInventoruOnAction(ActionEvent actionEvent) throws IOException {// inventory
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/maininventory.fxml"));
+        Pane registerPane = fxmlLoader.load();
+
+        try {
+            mainAncorPane.getChildren().clear();
+            mainAncorPane.getChildren().setAll(registerPane);
+            System.gc();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void btnSingOutOnAction(ActionEvent actionEvent) throws IOException {
