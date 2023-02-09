@@ -87,7 +87,7 @@
                   <Image url="@../../assepts/home2.png" />
                </image>
             </ImageView>
-            <MenuButton fx:id="btnMenuHealth" layoutX="10.0" layoutY="259.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" stylesheets="@../../sheets/style.css" text="   HEALTH" textFill="WHITE">
+            <MenuButton id="btnMenuHealth" fx:id="btnMenuHealth" layoutX="10.0" layoutY="259.0" mnemonicParsing="false" popupSide="RIGHT" prefHeight="51.0" prefWidth="350.0" style="-fx-background-radius: 35 35 35 35; -fx-background-color: #0DC27F;" stylesheets="@../../sheets/menuBtn.css" text="   HEALTH" textFill="WHITE">
               <items>
                 <MenuItem fx:id="btnHelthUpdate" mnemonicParsing="false" onAction="#menuHelthUpdateOnAction" text="Update Health" />
                 <MenuItem fx:id="btnGetinfo" mnemonicParsing="false" onAction="#menuHelthGetInfoOnAction" text="Get Health Information" />
