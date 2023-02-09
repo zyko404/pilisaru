@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.salesFormController">
+    <children>
+        <Text fill="#12b16e" layoutX="320.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Sales information" textAlignment="CENTER">
+            <font>
+                <Font name="Baskerville Old Face" size="40.0" />
+            </font>
+        </Text>
+        <Line endX="100.0" layoutX="492.0" layoutY="109.0" startX="-100.0" stroke="#12b16e" strokeWidth="5.0" />
+      <Text layoutX="121.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="211.0" layoutY="198.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" visibleRowCount="12" />
+      <ComboBox layoutX="687.0" layoutY="198.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <Text layoutX="621.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <TableView layoutX="150.0" layoutY="316.0" prefHeight="346.0" prefWidth="685.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn prefWidth="136.0" text="Date" />
+          <TableColumn prefWidth="142.0" text="Montly Income" />
+            <TableColumn maxWidth="50000.0" prefWidth="204.0" text="Sales(kg)">
+               <columns>
+                  <TableColumn maxWidth="50000.0" prefWidth="63.0" text="Tea" />
+                  <TableColumn maxWidth="50000.0" prefWidth="90.0" text="Coconut" />
+                  <TableColumn maxWidth="50000.0" minWidth="0.0" prefWidth="72.0" text="Rubber" />
+               </columns>
+            </TableColumn>
+            <TableColumn maxWidth="50000.0" prefWidth="202.0" text="Productivity" />
+        </columns>
+      </TableView>
+    </children>
+
+</AnchorPane>
