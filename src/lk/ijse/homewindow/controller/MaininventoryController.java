@@ -115,7 +115,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnEmployeeEquipmentDeleteOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnEmployeeEquipmentDeleteOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/equipentDelete.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -128,7 +128,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnEmployeeEquipmentUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnEmployeeEquipmentUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/employeeEquipment/employeeEqupmentUpdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -141,7 +141,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryCemicalAddOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryCemicalAddOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/chemcal/cemicalAdd.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -154,7 +154,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryCemicalDelete(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryCemicalDelete() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/chemcal/cemicalDelete.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -167,7 +167,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryCemicalUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryCemicalUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/chemcal/cemicalUpdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -180,7 +180,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryCompostInformationOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryCompostInformationOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/compost/compostGetInfo.fxml"));
         Pane registerPane = fxmlLoader.load();
 
@@ -193,7 +193,7 @@ public class MaininventoryController {
         }
     }
 
-    public void btnInventoryCompostUpdateOnAction(ActionEvent actionEvent) throws IOException {
+    public void btnInventoryCompostUpdateOnAction() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/inventory/compost/compostUpdate.fxml"));
         Pane registerPane = fxmlLoader.load();
 
