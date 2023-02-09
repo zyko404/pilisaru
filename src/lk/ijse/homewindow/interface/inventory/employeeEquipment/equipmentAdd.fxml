@@ -40,7 +40,7 @@
                   BorderPane.alignment="CENTER">
                 <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="328.0" layoutY="14.0" pickOnBounds="true"
                            preserveRatio="true">
-                    <Image url="@../../assepts/undraw_Collaborators_re_hont.png"/>
+                    <Image url="@../../../assepts/undraw_Collaborators_re_hont.png"/>
                 </ImageView>
                 <GridPane layoutX="240.0" layoutY="146.0" prefHeight="106.0" prefWidth="324.0">
                     <columnConstraints>
