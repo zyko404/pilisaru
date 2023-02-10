@@ -4,13 +4,9 @@ import javafx.scene.control.Slider;
 import javafx.scene.input.MouseEvent;
 
 public class SensorsPanalController {
+
     public Slider sliderWaterLevel;
-    private int sliderValue;
-    SensorsPopUpContriller sensorsPopUpContriller=new SensorsPopUpContriller();
-
     public void sliderWaterLevelOnAction(MouseEvent mouseEvent) {
-         this.sliderValue = (int) sliderWaterLevel.getValue();
+
     }
-
-
 }

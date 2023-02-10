@@ -25,9 +25,11 @@ public class LoginController {
     int number;
 
     public void btnSingInOnAction() throws IOException {
+
         ++chance;
         String check=passText.getText();
         String name=textName.getText();
+
         try{
              number = Integer.parseInt(check);
         }catch (Exception e){
@@ -52,9 +54,9 @@ public class LoginController {
             textName.setText("");
             System.out.println("dose not Exits");
             lblIncorrectPassword.setVisible(true);
-            //lblWarning.setVisible(true);
         }
         if(4<=chance){
+            signbit.setDisable(true);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/login/errorForm.fxml"));
             registerPane=fxmlLoader.load();
             mainframethisWindow.getChildren().clear();
@@ -62,6 +64,7 @@ public class LoginController {
         }
     }
     public void passOnActionKeyTyped() {
+        signbit.setDisable(false);
         lblIncorrectPassword.setVisible(false);
         String pass1=passText.getText();
         try{
@@ -72,6 +75,7 @@ public class LoginController {
             lblWarning.setVisible(true);
         }
         if(passText.getText().equals("")){
+            signbit.setDisable(true);
             lblWarning.setVisible(false);
         }
     }
