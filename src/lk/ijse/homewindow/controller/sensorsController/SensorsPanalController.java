@@ -7,6 +7,6 @@ public class SensorsPanalController {
 
     public Slider sliderWaterLevel;
     public void sliderWaterLevelOnAction(MouseEvent mouseEvent) {
-
+        System.out.println(sliderWaterLevel.getValue());
     }
 }
