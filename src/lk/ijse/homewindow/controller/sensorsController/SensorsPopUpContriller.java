@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
@@ -14,16 +15,14 @@ import java.util.Objects;
 public class SensorsPopUpContriller {
     public Button btnsensorPanel;
     public Label lblWaterLevel;
+    private TextField txtTemperature;
+    private TextField txtWesterlies;
 
     public void btnsensorPanelOnAction(ActionEvent actionEvent) throws IOException {
-        Stage satge=new Stage();
+        Stage satge = new Stage();
         satge.setScene(new Scene(FXMLLoader.load(getClass().getResource("../../sensors/sensorsPanal.fxml"))));
         satge.getIcons().add(new Image("lk/ijse/homewindow/assepts/20230130_225918.png"));
         satge.setTitle("pile id : su01");
         satge.show();
-    }
-    public void setWaterLevel(int waterlevel){
-        System.out.println(waterlevel);
-        lblWaterLevel.setText("Starting");
     }
 }
