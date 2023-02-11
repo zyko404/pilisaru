@@ -11,9 +11,9 @@
       <Label layoutX="25.0" layoutY="99.0" text="Temperature Level :" />
       <Button fx:id="btnsensorPanel" layoutX="213.0" layoutY="129.0" mnemonicParsing="false" onAction="#btnsensorPanelOnAction" text="Senor panel" />
       <Label fx:id="lblWater" layoutX="129.0" layoutY="14.0" prefHeight="17.0" prefWidth="59.0" style="-fx-background-color: green;" textFill="WHITE" />
-      <Label fx:id="lblTemp" layoutX="159.0" layoutY="90.0" prefHeight="35.0" prefWidth="49.0">
+      <Label fx:id="lblTemp" layoutX="153.0" layoutY="95.0" prefHeight="26.0" prefWidth="102.0">
          <font>
-            <Font size="24.0" />
+            <Font size="11.0" />
          </font>
       </Label>
    </children>

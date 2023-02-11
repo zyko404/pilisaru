@@ -14,8 +14,8 @@ import java.util.Objects;
 public class SensorsPopUpContriller {
     public Button btnsensorPanel;
     private Label lblWater;
-    Label lblTemp;
-    private int result;
+    protected Label lblTemp;
+    protected int result;
     private String passedValue;
 
     public void btnsensorPanelOnAction() throws IOException {
@@ -28,7 +28,9 @@ public class SensorsPopUpContriller {
     }
     public void setLblWater(int result){
         //System.out.println(result);
+        this.result=result;
         passedValue=String.valueOf(result);
+        lblTemp=new Label();
         lblTemp.setText(passedValue);
         System.out.println(passedValue);
     }
