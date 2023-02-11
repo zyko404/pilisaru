@@ -19,6 +19,7 @@
          <Image url="@../../assepts/Desktop%20-%2023.png" />
       </image>
    </ImageView>
+   <Label fx:id="lblLoading" layoutX="1290.0" layoutY="689.0" text="Loading..." visible="false" />
    <TextField fx:id="textName" layoutX="881.0" layoutY="403.0" prefHeight="39.0" prefWidth="320.0" promptText="Username" style="-fx-background-color: white;" AnchorPane.leftAnchor="881.0">
       <font>
          <Font size="20.0" />

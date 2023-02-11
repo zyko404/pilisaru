@@ -19,5 +19,6 @@ public class PileInterfaceController {
         satge.getIcons().add(new Image("lk/ijse/homewindow/assepts/20230130_225918.png"));
         satge.setTitle("pile id : su01");
         satge.show();
+        //btnSu01.setDisable(true);
     }
 }

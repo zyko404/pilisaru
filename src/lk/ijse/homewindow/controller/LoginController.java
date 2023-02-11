@@ -19,6 +19,7 @@ public class LoginController {
     public Label lblWarning;
     public Label lblIncorrectPassword;
     public Hyperlink hyperFogetPass;
+    public Label lblLoading;
     private int chance=0;
     Pane registerPane;
     String passValue;
@@ -40,6 +41,7 @@ public class LoginController {
         int password=404;
 
         if(password == number && name.equals("zyko")){
+
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../interface/menuwindow/menuWindow.fxml"));
                 registerPane = fxmlLoader.load();
