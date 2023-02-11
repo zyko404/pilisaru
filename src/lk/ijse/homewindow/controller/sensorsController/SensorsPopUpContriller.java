@@ -9,30 +9,37 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class SensorsPopUpContriller {
     public Button btnsensorPanel;
-    public Label lblWater;
-    public Label lblTemp;
+    private Label lblWater;
+    Label lblTemp;
     private int result;
+    private String passedValue;
 
     public void btnsensorPanelOnAction() throws IOException {
-        lblWater.setText("worked");
+        //lblWater.setText("worked");
         Stage satge=new Stage();
-        satge.setScene(new Scene(FXMLLoader.load(getClass().getResource("../../sensors/sensorPanal2.fxml"))));
+        satge.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("../../sensors/sensorPanal2.fxml")))));
         satge.getIcons().add(new Image("lk/ijse/homewindow/assepts/20230130_225918.png"));
         satge.show();
         btnsensorPanel.setDisable(true);
     }
     public void setLblWater(int result){
-        System.out.println(result);
+        //System.out.println(result);
+        passedValue=String.valueOf(result);
+        lblTemp.setText(passedValue);
+        System.out.println(passedValue);
     }
+
 
     @FXML
     void initialize() {
         assert btnsensorPanel != null : "fx:id=\"btnsensorPanel\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
         assert lblTemp != null : "fx:id=\"lblTemp\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
         assert lblWater != null : "fx:id=\"lblWater\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
-        lblTemp.setText(result+"");
+        //lblTemp.setText(result+"");
+
     }
 }
