@@ -10,7 +10,7 @@ import java.net.URL;
 
 public class SensorPanal2Controller {
 
-    SensorsPopUpContriller sensorsPopUpContriller=new SensorsPopUpContriller();
+    SensorsPopUpContriller sensorsPopUpContriller;
 
     @FXML
     private Label lblTemp;
@@ -26,9 +26,11 @@ public class SensorPanal2Controller {
         tempSlider.valueProperty().addListener(new ChangeListener<Number>() {
             @Override
             public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
+                sensorsPopUpContriller=new SensorsPopUpContriller();
                 int result= (int) tempSlider.getValue();
-                lblTemp.setText(result+""+"C");
+                lblTemp.setText(result+"C");
                 sensorsPopUpContriller.setLblWater(result);
+//                sensorsPopUpContriller.lblTemp.setText(result+" C");
             }
         });
     }

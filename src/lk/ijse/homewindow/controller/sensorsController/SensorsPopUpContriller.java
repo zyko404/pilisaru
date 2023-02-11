@@ -14,7 +14,7 @@ import java.util.Objects;
 public class SensorsPopUpContriller {
     public Button btnsensorPanel;
     private Label lblWater;
-    protected Label lblTemp;
+    public Label lblTemp=new Label();
     protected int result;
     private String passedValue;
 
@@ -27,12 +27,12 @@ public class SensorsPopUpContriller {
         btnsensorPanel.setDisable(true);
     }
     public void setLblWater(int result){
-        //System.out.println(result);
+
         this.result=result;
-        passedValue=String.valueOf(result);
+        //passedValue=String.valueOf(result);
         lblTemp=new Label();
-        lblTemp.setText(passedValue);
-        System.out.println(passedValue);
+        lblTemp.setText(String.valueOf(result));
+        //System.out.println(passedValue);
     }
 
 
