@@ -13,17 +13,17 @@
          <Image url="@../../assepts/EmployeeAddInterface.png" />
       </image>
    </ImageView>
-   <TextField layoutX="395.0" layoutY="343.0" prefHeight="59.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+   <TextField layoutX="410.0" layoutY="355.0" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
       <font>
          <Font size="16.0" />
       </font>
    </TextField>
-   <TextField layoutX="397.0" layoutY="429.0" prefHeight="59.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+   <TextField layoutX="410.0" layoutY="440.0" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
       <font>
          <Font size="16.0" />
       </font>
    </TextField>
-   <TextField layoutX="403.0" layoutY="534.0" prefHeight="44.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+   <TextField layoutX="410.0" layoutY="525.0" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
       <font>
          <Font size="16.0" />
       </font>
