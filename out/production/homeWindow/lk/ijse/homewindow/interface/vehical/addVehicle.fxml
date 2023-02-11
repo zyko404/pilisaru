@@ -28,7 +28,7 @@
             <Font name="Avenir Book" size="24.0" />
          </font>
       </Button>
-      <TextField layoutX="440.0" layoutY="325.0" prefHeight="78.0" prefWidth="350.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+      <TextField layoutX="440.0" layoutY="331.0" prefHeight="78.0" prefWidth="350.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;">
          <font>
             <Font size="20.0" />
          </font>
