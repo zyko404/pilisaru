@@ -29,7 +29,7 @@
       <Image url="@../../assepts/user.png" />
    </ImageView>
    <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="1029.0" layoutY="448.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" AnchorPane.bottomAnchor="269.5000305175781" AnchorPane.leftAnchor="840.138671875" AnchorPane.rightAnchor="163.861328125" AnchorPane.topAnchor="445.4999694824219" />
-   <PasswordField fx:id="passText" layoutX="881.0" layoutY="473.0" onKeyTyped="#passOnActionKeyTyped" prefHeight="39.0" prefWidth="320.0" promptText="password" style="-fx-background-color: white;" AnchorPane.leftAnchor="881.0">
+   <PasswordField fx:id="passText" layoutX="881.0" layoutY="473.0" onAction="#txtPasswordOnAction" onKeyTyped="#passOnActionKeyTyped" prefHeight="39.0" prefWidth="320.0" promptText="password" style="-fx-background-color: white;" AnchorPane.leftAnchor="881.0">
       <font>
          <Font size="20.0" />
       </font>

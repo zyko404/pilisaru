@@ -17,7 +17,7 @@
       </ImageView>
       <ChoiceBox layoutX="413.0" layoutY="371.0" prefHeight="57.0" prefWidth="313.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
       <TextField layoutX="384.0" layoutY="447.0" prefHeight="57.0" prefWidth="375.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
-      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="709.0" layoutY="612.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="204.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" text="ADD" textFill="WHITE">
+      <Button id="blue" alignment="CENTER" contentDisplay="CENTER" layoutX="709.0" layoutY="612.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="204.0" style="-fx-background-radius: 75; -fx-background-color: #0BA27A;" stylesheets="@../../../sheets/stylesheet.css" text="ADD" textFill="WHITE">
          <font>
             <Font name="Avenir Book" size="24.0" />
          </font>

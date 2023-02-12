@@ -8,7 +8,7 @@ import javafx.scene.control.Slider;
 
 import java.net.URL;
 
-public class SensorPanal2Controller {
+public class    SensorPanal2Controller {
 
     SensorsPopUpContriller sensorsPopUpContriller;
 

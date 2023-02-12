@@ -1,5 +1,6 @@
 package lk.ijse.homewindow.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -88,5 +89,9 @@ public class LoginController {
         satge.getIcons().add(new Image("lk/ijse/homewindow/assepts/20230130_225918.png"));
         satge.setTitle("Hello "+passValue);
         satge.show();
+    }
+
+    public void txtPasswordOnAction() throws IOException {
+        btnSingInOnAction();
     }
 }
