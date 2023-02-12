@@ -27,9 +27,12 @@ public class SensorsPopUpContriller {
         btnsensorPanel.setDisable(true);
     }
     public void setLblWater(int result){
+
         this.result=result;
+        //passedValue=String.valueOf(result);
+        lblTemp=new Label();
         lblTemp.setText(String.valueOf(result));
-        System.out.println(result);
+        //System.out.println(passedValue);
     }
 
 

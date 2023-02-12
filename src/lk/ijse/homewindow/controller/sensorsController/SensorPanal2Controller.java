@@ -13,7 +13,7 @@ public class    SensorPanal2Controller {
     SensorsPopUpContriller sensorsPopUpContriller;
 
     @FXML
-    private Label lblTemp;
+    public Label lblTemp;
 
     @FXML
     private Slider tempSlider;
