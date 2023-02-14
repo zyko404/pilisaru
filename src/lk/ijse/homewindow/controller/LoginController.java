@@ -39,7 +39,7 @@ public class LoginController {
         }
 
         passText.setText("");
-        int password=404;
+        int password=404404;
 
         if(password == number && name.equals("zyko")){
 

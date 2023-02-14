@@ -29,8 +29,7 @@ public class    SensorPanal2Controller {
                 sensorsPopUpContriller=new SensorsPopUpContriller();
                 int result= (int) tempSlider.getValue();
                 lblTemp.setText(result+"C");
-                sensorsPopUpContriller.setLblWater(result);
-//                sensorsPopUpContriller.lblTemp.setText(result+" C");
+                sensorsPopUpContriller.setLblTemp(result+"");
             }
         });
     }

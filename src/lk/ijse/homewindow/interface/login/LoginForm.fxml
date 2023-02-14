@@ -38,7 +38,7 @@
       <Image url="@../../assepts/lock.png" />
    </ImageView>
    <Line endX="170.638671875" endY="-3.0517578125E-5" layoutX="1029.0" layoutY="519.0" startX="-186.361328125" startY="-3.0517578125E-5" stroke="#f1f0ee" strokeWidth="5.0" AnchorPane.leftAnchor="840.138671875" />
-   <CheckBox layoutX="845.0" layoutY="554.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Remember Me" textAlignment="CENTER" AnchorPane.leftAnchor="840.138671875">
+   <CheckBox layoutX="845.0" layoutY="560.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Remember Me" textAlignment="CENTER" AnchorPane.leftAnchor="840.138671875">
       <font>
          <Font size="14.0" />
       </font>
@@ -51,7 +51,7 @@
          <Cursor fx:constant="HAND" />
       </cursor>
    </Button>
-   <Label fx:id="lblWarning" layoutX="841.0" layoutY="526.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="92.0" text="Invalid password" textFill="#eb4e4e" visible="false" />
-   <Label fx:id="lblIncorrectPassword" layoutX="930.0" layoutY="529.0" prefHeight="17.0" prefWidth="183.0" text="Incorrect Password or User Name" textFill="#fc3333" visible="false" />
-   <Hyperlink fx:id="hyperFogetPass" layoutX="974.0" layoutY="657.0" onAction="#forgetsOnAction" text="forgot password?" />
+   <Label fx:id="lblWarning" layoutX="983.0" layoutY="529.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="92.0" text="Invalid password" textFill="#eb4e4e" visible="false" />
+   <Label fx:id="lblIncorrectPassword" layoutX="930.0" layoutY="545.0" prefHeight="17.0" prefWidth="183.0" text="Incorrect Password or User Name" textFill="#fc3333" visible="false" />
+   <Hyperlink fx:id="hyperFogetPass" layoutX="975.0" layoutY="657.0" onAction="#forgetsOnAction" text="forgot password?" />
 </AnchorPane>

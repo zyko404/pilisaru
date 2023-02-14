@@ -13,10 +13,7 @@ import java.util.Objects;
 
 public class SensorsPopUpContriller {
     public Button btnsensorPanel;
-    private Label lblWater;
-    public Label lblTemp=new Label();
-    protected int result;
-    private String passedValue;
+    public Label lbltest;
 
     public void btnsensorPanelOnAction() throws IOException {
         //lblWater.setText("worked");
@@ -26,19 +23,13 @@ public class SensorsPopUpContriller {
         satge.show();
         btnsensorPanel.setDisable(true);
     }
-    public void setLblWater(int result){
-        this.result=result;
-        lblTemp.setText(String.valueOf(result));
-        System.out.println(result);
-    }
-
 
     @FXML
-    void initialize() {
-        assert btnsensorPanel != null : "fx:id=\"btnsensorPanel\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
-        assert lblTemp != null : "fx:id=\"lblTemp\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
-        assert lblWater != null : "fx:id=\"lblWater\" was not injected: check your FXML file 'sensorsPopUp.fxml'.";
-        //lblTemp.setText(result+"");
-
+    void initialize(String temp) {
+        System.out.println("called initialize");
+        System.out.println(temp);
+    }
+    public void setLblTemp(String value){
+        initialize(value);
     }
 }

@@ -15,10 +15,9 @@ public class PileInterfaceController {
 
     public void btnsu01OnAction(ActionEvent actionEvent) throws IOException {
         Stage satge=new Stage();
-        satge.setScene(new Scene(FXMLLoader.load(getClass().getResource("../sensors/sensorsPopUp.fxml"))));
+        satge.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("../sensors/sensorsPopUp.fxml")))));
         satge.getIcons().add(new Image("lk/ijse/homewindow/assepts/20230130_225918.png"));
         satge.setTitle("pile id : su01");
         satge.show();
-        //btnSu01.setDisable(true);
     }
 }
