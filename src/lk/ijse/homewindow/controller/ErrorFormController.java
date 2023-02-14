@@ -13,6 +13,7 @@ import java.util.Objects;
 public class ErrorFormController {
 
     public Hyperlink hyperBack;
+    LoginController loginController=new LoginController();
 
     public void hyperBackOnAction() throws IOException {
         Stage satge=new Stage();
@@ -22,6 +23,7 @@ public class ErrorFormController {
         satge.show();
         Stage stage2= (Stage) hyperBack.getScene().getWindow();
         stage2.close();
+        loginController.setSingInDeseble();
 
     }
 }

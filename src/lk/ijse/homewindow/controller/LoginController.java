@@ -94,4 +94,8 @@ public class LoginController {
     public void txtPasswordOnAction() throws IOException {
         btnSingInOnAction();
     }
+
+    public void setSingInDeseble() {
+        signbit.setDisable(true);
+    }
 }
