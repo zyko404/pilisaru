@@ -52,7 +52,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su02" />
+            <Button id="bevel" fx:id="btnSu02" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su02" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo02" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu02" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We02" GridPane.rowIndex="3" />
@@ -75,7 +75,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su03" />
+            <Button id="bevel" fx:id="btnSu03" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su03" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo03" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu03" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We03" GridPane.rowIndex="3" />
@@ -98,7 +98,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su04" />
+            <Button id="bevel" fx:id="Su04" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su04" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo04" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu04" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We04" GridPane.rowIndex="3" />
@@ -121,7 +121,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su05" />
+            <Button id="bevel" fx:id="Su05" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su05" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo05" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu05" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We05" GridPane.rowIndex="3" />
@@ -144,7 +144,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su06" />
+            <Button id="bevel" fx:id="Su06" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su06" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo06" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu06" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We06" GridPane.rowIndex="3" />
@@ -167,7 +167,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su07" />
+            <Button id="bevel" fx:id="Su07" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su07" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo07" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu07" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We07" GridPane.rowIndex="3" />
@@ -190,8 +190,8 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su01" />
-            <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo01" GridPane.rowIndex="1" />
+            <Button id="bevel" fx:id="Su08" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Su08" />
+            <Button id="bevel" mnemonicParsing="false" prefHeight="56.0" prefWidth="73.0" text="mo08" GridPane.rowIndex="1" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="57.0" prefWidth="73.0" text="Tu08" GridPane.rowIndex="2" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="54.0" prefWidth="73.0" text="We08" GridPane.rowIndex="3" />
             <Button id="bevel" mnemonicParsing="false" prefHeight="58.0" prefWidth="73.0" text="Th08" GridPane.rowIndex="4" />
